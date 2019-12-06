@@ -1,7 +1,7 @@
 # Nail Salon Application
 
 [![Build Status](https://travis-ci.org/The-Invisibles/nail-salon-frontend.svg?branch=develop)](https://travis-ci.org/The-Invisibles/nail-salon-frontend)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/676377047969d39c959c/test_coverage)](https://codeclimate.com/github/The-Invisibles/nail-salon-frontend/test_coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/8400ad7728bb87ca148d/test_coverage)](https://codeclimate.com/github/The-Invisibles/nail-salon-frontend/test_coverage)
 
 A Simple Nail Salon Application that allows users to view services offered by the salon and schedule appointments
 
