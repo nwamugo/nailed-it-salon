@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render correctly 1`] = `
+<div
+  className="Footer"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="foot col-md-12"
+    >
+      <i
+        className="fab fa-facebook"
+      />
+      <span>
+           
+      </span>
+      <i
+        className="fab fa-instagram"
+      />
+      <span>
+           
+      </span>
+      <i
+        className="fab fa-twitter"
+      />
+      <br />
+      <br />
+      <span>
+        Copyright © 2019 by Nail Salon
+      </span>
+    </div>
+  </div>
+</div>
+`;

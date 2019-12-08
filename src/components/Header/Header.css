@@ -1,0 +1,42 @@
+.Header {
+  position: absolute;
+  width: 100%;
+  height: 93px;
+  left: 0px;
+  top: 0px;
+}
+.head {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 29px;
+  color: #000000;
+  position: absolute;
+  height: 29px;
+  left: 48px;
+  top: 28px;
+}
+.menu {
+  position: absolute;
+  height: 14px;
+  left: 660px;
+  top: 36px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #000000;
+}
+
+a {
+  color: black !important;
+}
+a:hover {
+  color: #f0a07f !important;
+}
+a.nav-link.active {
+  color: #f0a07f !important;
+}

@@ -15,6 +15,7 @@
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0"
@@ -26,7 +27,7 @@
     "lint": "eslint .",
     "test": "jest -u",
     "test:watch": "jest --watch",
-    "coverage": "jest --collectCoverage"
+    "coverage": "jest --collectCoverage --coveragePathIgnorePatterns=src/index.js --coveragePathIgnorePatterns=src/serviceWorker.js"
   },
   "jest": {
     "setupFiles": [
@@ -40,7 +41,8 @@
     },
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,mjs}",
-      "!**/node_modules/**"
+      "!**/node_modules/**",
+      "!**/src/routes/**"
     ],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
