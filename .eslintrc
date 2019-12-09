@@ -42,7 +42,8 @@
     "no-console": 0,
     "no-param-reassign": 0,
     "comma-dangle": "off",
-    "jsx-a11y/anchor-is-valid": 0
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-a11y/alt-text": 0
   },
   "settings": {
     "react": {

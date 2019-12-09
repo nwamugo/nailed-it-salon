@@ -1,0 +1,25 @@
+.scroll-indicator {
+  position: fixed;
+  top: 27.4375rem;
+  right: 9.9375rem;
+  width: 6.6875rem;
+  height: 5.1875;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.indicator-item {
+  margin-bottom: .5rem;
+}
+
+.dot {
+  position: fixed;
+  right: 9.9375rem;
+  height: .6625rem;
+  width: .6625rem;
+  background-color: #f0a07f;
+  border-radius: 50%;
+  display: inline-block;
+}
