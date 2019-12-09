@@ -1,12 +1,13 @@
 {
-  "name": "my-app",
+  "name": "nail-salon-app",
   "version": "0.1.0",
+  "description": "The frontend application to the Nail Salon Application",
+  "main": "index.js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "babel-jest": "^24.9.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
@@ -17,8 +18,7 @@
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
-    "sass": "^1.23.7",
-    "sass-loader": "^8.0.0"
+    "sass": "^1.23.7"
   },
   "scripts": {
     "dev": "react-scripts start",
@@ -73,9 +73,7 @@
   "devDependencies": {
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.1",
-    "jest": "^24.9.0",
     "prettier": "^1.19.1"
   }
 }
