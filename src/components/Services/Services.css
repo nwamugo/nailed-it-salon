@@ -1,0 +1,25 @@
+.line-boundary {
+  position: absolute;
+  top: 43rem;
+  width: 2.95rem;
+  height: 0.18rem;
+  background-color: #000;
+  left: 57.56rem;
+}
+
+.services-container {
+  position: absolute;
+  top: 46rem;
+  left: 14rem;
+  height: 30.981875rem;
+  width: 86.3125rem;
+}
+
+.primary-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.8125rem;
+  font-weight: 600;
+  letter-spacing: .04em;
+}

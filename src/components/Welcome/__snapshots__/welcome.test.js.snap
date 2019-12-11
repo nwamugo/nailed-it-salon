@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render correctly 1`] = `
+<div
+  className="Welcome"
+>
+  <span
+    className="welcome-tag"
+  >
+    Welcome
+  </span>
+  <br />
+  <span
+    className="sub-tag"
+  >
+    To a Full Nail Salon Experience
+  </span>
+</div>
+`;
