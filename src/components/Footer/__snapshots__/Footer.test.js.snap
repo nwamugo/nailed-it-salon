@@ -10,21 +10,42 @@ exports[`Footer should render correctly 1`] = `
     <div
       className="foot col-md-12"
     >
-      <i
-        className="fab fa-facebook"
-      />
+      <a
+        className="social"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-facebook"
+        />
+      </a>
       <span>
            
       </span>
-      <i
-        className="fab fa-instagram"
-      />
+      <a
+        className="social"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-instagram"
+        />
+      </a>
       <span>
            
       </span>
-      <i
-        className="fab fa-twitter"
-      />
+      <a
+        className="social"
+        href="#"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fab fa-twitter"
+        />
+      </a>
       <br />
       <br />
       <span>

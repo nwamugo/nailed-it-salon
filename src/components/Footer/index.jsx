@@ -7,11 +7,32 @@ const Footer = () => {
     <div className="Footer">
       <div className="row">
         <div className="foot col-md-12">
-          <i className="fab fa-facebook" />
+          <a
+            href="#"
+            className="social"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-facebook" />
+          </a>
           <span>&nbsp;&nbsp;&nbsp;</span>
-          <i className="fab fa-instagram" />
+          <a
+            href="#"
+            className="social"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-instagram" />
+          </a>
           <span>&nbsp;&nbsp;&nbsp;</span>
-          <i className="fab fa-twitter" />
+          <a
+            href="#"
+            className="social"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-twitter" />
+          </a>
           <br />
           <br />
           <span>Copyright &copy; 2019 by Nail Salon</span>
