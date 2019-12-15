@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServicesDetail should not have regressed 1`] = `
+<div
+  className="services-detail-container"
+>
+  <div
+    className="services-description services-description--testingcomponent"
+  >
+    <hr
+      className="services-name-border-top services-name-border-top--testingcomponent"
+    />
+    <h2
+      className="services-name services-name--testingcomponent"
+    >
+      TestingComponent
+    </h2>
+    <button
+      className="btn-book-now btn-book-now--testingcomponent"
+      type="submit"
+    >
+      Book Now &gt;
+    </button>
+  </div>
+  <div
+    className="services-image--testingcomponent"
+  >
+    <img
+      alt="Logo"
+      className="ticketImage"
+      data-test="logoIMG"
+    />
+  </div>
+</div>
+`;

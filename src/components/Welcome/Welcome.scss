@@ -1,36 +1,41 @@
 .Welcome {
   position: absolute;
   width: 100%;
-  height: 50.625rem;
-  top: 5.8125rem;
+  height: 81rem;
+  top: 9.3rem;
   background: url(welcome.jpg);
   background-size: cover;
+
+  @media (max-width: 26.75em) { 
+    background-image: url(welcome500.jpg);
+    background-position: 64% 6%;
+  }
 }
 .welcome-tag {
   position: relative;
-  width: 25.75rem;
-  height: 6.25rem;
-  left: 3.75rem;
-  top: 20.5625rem;
+  width: 41.2rem;
+  height: 10rem;
+  left: 6rem;
+  top: 32.9rem;
   font-style: normal;
   font-weight: 600;
-  font-size: 13.25rem;
-  line-height: 6.25rem;
+  font-size: 21.2rem;
+  line-height: 10rem;
   letter-spacing: 0.01em;
   color: #000000;
 }
 .sub-tag {
   position: relative;
-  width: 28.0625rem;
-  height: 1.25rem;
-  left: 4.375rem;
-  top: 22.925rem;
+  width: 44.9rem;
+  height: 2rem;
+  left: 7rem;
+  top: 36.68rem;
 
   font-family: 'Libre Baskerville', Roboto, serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.2rem;
-  line-height: 1.25rem;
+  font-size: 3.52rem;
+  line-height: 2rem;
   letter-spacing: 0.01em;
 
   color: #000000;

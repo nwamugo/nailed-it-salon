@@ -1,0 +1,85 @@
+.services-detail-container {
+  width: 70.8rem;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 26.75em) { 
+    width: 100%;
+    height: 28.571rem;
+    display: block;
+  }
+}
+
+.services-name {
+  font-size: 4rem;
+}
+
+.services-name-border-top {
+  width: 4.72rem;
+  height: .288rem;
+  margin: 0 auto 3rem;
+
+  &--manicure, &--add-ons {
+    background-color: #000;
+  } 
+  
+  &--pedicure, &--nail-extensions {
+    background-color: #fff;
+  }
+}
+
+.services-description {
+  flex-grow: 1;
+  font-family: "Libre Baskerville";
+  text-align: center;
+  padding-top: 6rem;
+
+  &--manicure, &--add-ons {
+    background-color: #ffe4d9;
+    color: #000;
+  }
+
+  &--pedicure, &--nail-extensions {
+    background-color: #000;
+    color: #fff;
+    
+  }
+
+  &--nail-extensions {
+    order: 1;
+  }
+
+  // @media (max-width: 26.75em) {
+  //   flex-grow: 0;
+  // }
+}
+
+.ticketImage {
+  width: 35.4rem;
+  height: 100%;
+  object-fit: cover;
+
+  @media (max-width: 26.75em) { 
+    width: 100%;
+  }
+}
+
+.btn-book-now {
+  border: none;
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin-top: 6rem;
+  padding: .6rem .3rem .6rem .8rem;
+  text-transform: uppercase;
+
+  &--manicure, &--add-ons {
+    background-color: #f7c1ac;
+    color: #fff;
+  }
+
+  &--pedicure, &--nail-extensions {
+    background-color: #000;
+    color: #f7c1ac;
+  }
+}

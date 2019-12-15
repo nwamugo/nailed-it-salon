@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import ScrollIndicator from './index';
 
 describe('ScrollIndicator', () => {
-  it('should render correctly', () => {
+  it('should not have regressed', () => {
     const component = shallow(<ScrollIndicator />);
 
     expect(component).toMatchSnapshot();

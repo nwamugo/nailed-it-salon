@@ -17,8 +17,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
-    "sass": "^1.23.7"
+    "react-scripts": "3.3.0"
   },
   "scripts": {
     "dev": "react-scripts start",
@@ -30,6 +29,7 @@
     "coverage": "jest --collectCoverage --coveragePathIgnorePatterns=src/index.js --coveragePathIgnorePatterns=src/serviceWorker.js"
   },
   "jest": {
+    "verbose": true,
     "setupFiles": [
       "./src/setupTests.js"
     ],
@@ -37,16 +37,17 @@
       "enzyme-to-json/serializer"
     ],
     "moduleNameMapper": {
-      "\\.(css)$": "<rootDir>/node_modules/jest-css-modules"
+      "^.+\\.(css|less|scss)$": "babel-jest",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
     },
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,mjs}",
       "!**/node_modules/**",
       "!**/src/routes/**"
     ],
+    "roots": ["<rootDir>"],
     "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
-      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
+      "**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"
     ],
     "transform": {
       "^.+\\.(js|jsx|mjs)$": "<rootDir>/config/jest/jest-transformer.js"

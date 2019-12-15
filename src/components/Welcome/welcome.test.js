@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import Welcome from './index';
 
 describe('Welcome', () => {
-  it('should render correctly', () => {
+  it('should not have regressed', () => {
     const component = shallow(<Welcome />);
 
     expect(component).toMatchSnapshot();

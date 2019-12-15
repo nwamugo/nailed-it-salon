@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import Header from './index';
 
 describe('Header', () => {
-  it('should render correctly', () => {
+  it('should not have regressed', () => {
     const component = shallow(<Header />);
 
     expect(component).toMatchSnapshot();
