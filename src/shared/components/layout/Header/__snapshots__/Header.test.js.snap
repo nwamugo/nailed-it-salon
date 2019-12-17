@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header should render correctly 1`] = `
+exports[`Header should not have regressed 1`] = `
 <div
   className="Header"
 >
@@ -16,10 +16,10 @@ exports[`Header should render correctly 1`] = `
       className="menu col-md-6"
     >
       <ul
-        className="nav justify-content-end"
+        className="nav justify-content-end u-margin-right"
       >
         <li
-          className="nav-item"
+          className="nav-item u-margin-left"
         >
           <a
             className="nav-link active"
@@ -29,7 +29,7 @@ exports[`Header should render correctly 1`] = `
           </a>
         </li>
         <li
-          className="nav-item"
+          className="nav-item u-margin-left"
         >
           <a
             className="nav-link"
@@ -39,7 +39,7 @@ exports[`Header should render correctly 1`] = `
           </a>
         </li>
         <li
-          className="nav-item"
+          className="nav-item u-margin-left"
         >
           <a
             className="nav-link"
@@ -49,7 +49,7 @@ exports[`Header should render correctly 1`] = `
           </a>
         </li>
         <li
-          className="nav-item"
+          className="nav-item u-margin-left"
         >
           <a
             className="nav-link"
@@ -59,7 +59,7 @@ exports[`Header should render correctly 1`] = `
           </a>
         </li>
         <li
-          className="nav-item"
+          className="nav-item u-margin-left"
         >
           <a
             className="nav-link"

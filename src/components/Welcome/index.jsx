@@ -1,6 +1,6 @@
 /* eslint-disable no-irregular-whitespace */
 import React from 'react';
-import './Welcome.css';
+import './Welcome.scss';
 
 const Welcome = () => {
   return (

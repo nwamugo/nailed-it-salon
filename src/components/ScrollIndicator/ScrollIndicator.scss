@@ -1,24 +1,28 @@
 .scroll-indicator {
   position: fixed;
-  top: 27.4375rem;
-  right: 9.9375rem;
-  width: 6.6875rem;
-  height: 5.1875;
+  top: 43.9rem;
+  right: 15.9rem;
+  width: 10.7rem;
+  height: 8.3rem;
   font-family: 'Roboto', sans-serif;
-  font-size: 0.75rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   vertical-align: top;
+
+  @media (max-width: 26.75em) {
+    display: none;
+  }
 }
 
 .indicator-item {
-  margin-bottom: .5rem;
+  margin-bottom: .8rem;
 }
 
 .dot {
   position: fixed;
-  right: 9.9375rem;
-  height: .6625rem;
-  width: .6625rem;
+  right: 15.9rem;
+  height: 1.06rem;
+  width: 1.06rem;
   background-color: #f0a07f;
   border-radius: 50%;
   display: inline-block;

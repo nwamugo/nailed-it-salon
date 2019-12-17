@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Footer from './index';
+import ServicesCard from './index';
 
-describe('Footer', () => {
+describe('ServicesCard', () => {
   it('should not have regressed', () => {
-    const component = shallow(<Footer />);
+    const component = shallow(<ServicesCard />);
 
     expect(component).toMatchSnapshot();
   });

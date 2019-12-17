@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 
 function Header() {
   return (
@@ -8,27 +8,27 @@ function Header() {
         <div className="head col-md-6">Nail Salon</div>
         <div className="menu col-md-6">
           <ul className="nav justify-content-end u-margin-right">
-            <li className="nav-item">
+            <li className="nav-item u-margin-left">
               <a className="nav-link active" href="#">
                 HOME
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item u-margin-left">
               <a className="nav-link" href="#">
                 OUR SERVICES
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item u-margin-left">
               <a className="nav-link" href="#">
                 OUR STORY
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item u-margin-left">
               <a className="nav-link" href="#">
                 MAKE AN APPOINTMENT
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item u-margin-left">
               <a className="nav-link" href="#">
                 CONTACT
               </a>

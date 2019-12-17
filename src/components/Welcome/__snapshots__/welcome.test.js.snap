@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Footer should render correctly 1`] = `
+exports[`Welcome should not have regressed 1`] = `
 <div
   className="Welcome"
 >

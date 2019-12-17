@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home should render correctly 1`] = `
+exports[`Home should not regress 1`] = `
 <div>
   <Header />
   <Welcome />
+  <ScrollIndicator />
+  <ServicesSection />
   <Footer />
 </div>
 `;

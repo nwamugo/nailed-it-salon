@@ -1,6 +1,6 @@
 /* eslint-disable no-irregular-whitespace */
 import React from 'react';
-import './Footer.css';
+import './Footer.scss';
 
 const Footer = () => {
   return (
