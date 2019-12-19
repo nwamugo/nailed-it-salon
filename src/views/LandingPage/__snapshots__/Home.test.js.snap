@@ -6,6 +6,7 @@ exports[`Home should not regress 1`] = `
   <Welcome />
   <ScrollIndicator />
   <ServicesSection />
+  <ContactSection />
   <Footer />
 </div>
 `;

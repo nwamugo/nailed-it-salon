@@ -5,6 +5,7 @@ import Footer from '../../shared/components/layout/Footer/index';
 import Welcome from '../../components/Welcome/index';
 import ScrollIndicator from '../../components/ScrollIndicator';
 import ServicesSection from '../../components/ServicesSection';
+import ContactSection from '../../components/ContactSection';
 
 const Home = () => (
   <div>
@@ -12,6 +13,7 @@ const Home = () => (
     <Welcome />
     <ScrollIndicator />
     <ServicesSection />
+    <ContactSection />
     <Footer />
   </div>
 );
