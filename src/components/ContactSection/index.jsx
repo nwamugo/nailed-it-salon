@@ -9,7 +9,8 @@ const ContactSection = () => {
       <div className="contact-container">
         <h2 className="primary-header">Contact Us</h2>
         <h3 className="primary-location">
-          500 Terry Francois Street,&nbsp;San Francisco, CA 94158
+          Ground Foor, Al Raed Groove, Ashirat Sudayr street, Ar Raid, Riyadh
+          12355
         </h3>
         <h3 className="primary-info">
           info@mysite.com&nbsp;&nbsp;|&nbsp;&nbsp;Tel: 123-456-7890
