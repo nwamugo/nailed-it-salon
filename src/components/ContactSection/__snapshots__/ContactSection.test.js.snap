@@ -18,7 +18,7 @@ exports[`ContactSection should not have regressed 1`] = `
     <h3
       className="primary-location"
     >
-      500 Terry Francois Street, San Francisco, CA 94158
+      Ground Foor, Al Raed Groove, Ashirat Sudayr street, Ar Raid, Riyadh 12355
     </h3>
     <h3
       className="primary-info"
