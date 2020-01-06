@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="Header">
       <div className="row">
-        <div className="head col-md-6">Nail Salon</div>
+        <div className="head col-md-6">Nail IT</div>
         <div className="menu col-md-6">
           <ul className="nav justify-content-end u-margin-right">
             <li className="nav-item u-margin-left">

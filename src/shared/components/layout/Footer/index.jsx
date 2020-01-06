@@ -35,7 +35,7 @@ const Footer = () => {
           </a>
           <br />
           <br />
-          <span>Copyright &copy; 2019 by Nail Salon</span>
+          <span>Copyright &copy; 2020 by Nail IT</span>
         </div>
       </div>
     </div>

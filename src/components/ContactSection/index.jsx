@@ -17,8 +17,8 @@ const ContactSection = () => {
         </h3>
         <h2 className="secondary-header">Opening Hours</h2>
         <h3 className="primary-info">
-          Mon - Fri: 7am - 10pm&nbsp;&nbsp;|&nbsp;&nbsp;Saturday: 8am -
-          10pm&nbsp;&nbsp;|&nbsp;&nbsp;Sunday: 8am - 11pm
+          Mon - Thur &amp; Sat: 11am - 9pm&nbsp;&nbsp;|&nbsp;&nbsp;Friday: 2pm -
+          9pm&nbsp;&nbsp;|&nbsp;&nbsp;Sunday: Closed
         </h3>
         <div>
           <form>

@@ -10,7 +10,7 @@ exports[`Header should not have regressed 1`] = `
     <div
       className="head col-md-6"
     >
-      Nail Salon
+      Nail IT
     </div>
     <div
       className="menu col-md-6"
