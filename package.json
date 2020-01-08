@@ -20,7 +20,7 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "lint": "eslint .",
@@ -45,9 +45,12 @@
       "!**/node_modules/**",
       "!**/src/routes/**"
     ],
-    "roots": ["<rootDir>"],
+    "roots": [
+      "<rootDir>"
+    ],
     "testMatch": [
-      "**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"
+      "**/__tests__/**/*.[jt]s?(x)",
+      "**/?(*.)+(spec|test).[jt]s?(x)"
     ],
     "transform": {
       "^.+\\.(js|jsx|mjs)$": "<rootDir>/config/jest/jest-transformer.js"
