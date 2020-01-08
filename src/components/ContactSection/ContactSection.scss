@@ -1,4 +1,5 @@
 .contact-container .primary-header {
+  color: #e294c5;
   text-align: center;
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
@@ -6,17 +7,35 @@
   font-weight: 600;
   letter-spacing: 0.04em;
   margin-top: 4.6rem;
-  color: #f7c1ac;
+  @media (max-width: 575.98px) {
+    font-size: 3.52rem;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    font-size: 3.52rem;
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    font-size: 3.52rem;
+  }
+  @media (max-width: 1024px) {
+    font-size: 3.52rem;
+  }
 }
 
 .contact-box {
   position: absolute;
   width: 80rem;
   height: 65rem;
-  left: 55rem;
+  left: 60rem;
   align-content: center;
   top: 160rem;
   background: #000;
+  @media (max-width: 1024px) {
+    width: 70rem;
+    left: 14.7rem;
+  }
 }
 
 .contact-box .contact-container-border-line {
@@ -27,8 +46,15 @@
   width: 4.72rem;
   height: 0.288rem;
 
-  @media (max-width: 26.75em) {
-    left: 29rem;
+  @media (max-width: 575.98px) {
+    left: 46rem;
+  }
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    left: 49rem;
+  }
+  @media (max-width: 1024px) {
+    left: 33rem;
   }
 }
 
@@ -63,9 +89,12 @@ a.primary-direction-route {
   font-size: 1.9rem;
   font-weight: 600;
   letter-spacing: 0.04em;
-  color: #f7c1ac !important;
-  margin-left: 31.5rem !important;
+  color: #e294c5 !important;
+  margin-left: 31rem !important;
   text-transform: uppercase;
+  @media (max-width: 1024px) {
+    margin-left: 27rem !important;
+  }
 }
 a.primary-direction-route:hover {
   color: #fff !important;
@@ -79,7 +108,7 @@ a.primary-direction-route:hover {
   font-weight: 600;
   letter-spacing: 0.04em;
   margin-top: 4.6rem;
-  color: #ffe4d9;
+  color: #f8e7f2;
 }
 
 .contact-container .input-message {
@@ -89,7 +118,11 @@ a.primary-direction-route:hover {
   width: 25.97rem;
   height: 16.5rem;
   left: 40rem;
-  top: 31.57rem;
+  top: 31rem;
+  @media (max-width: 1024px) {
+    left: 34rem;
+    top: 30rem;
+  }
 }
 .contact-container .input-info {
   margin-top: 3rem;
@@ -99,6 +132,9 @@ a.primary-direction-route:hover {
   height: 3.5rem;
   font-size: 1.7rem;
   font-family: "Roboto", sans-serif;
+  @media (max-width: 1024px) {
+    margin-left: 10.87rem;
+  }
 }
 
 .contact-container .contact-submit {
@@ -107,13 +143,18 @@ a.primary-direction-route:hover {
   height: 3.5rem;
   left: 15rem;
   top: 49.69rem;
-  background: #ffe4d9;
-  border: 1px solid #ffe4d9;
+  border-radius: 1rem;
+  background: #e294c5;
+  border: 1px solid #e294c5;
   box-sizing: border-box;
   font-size: 1.7rem;
   font-family: "Roboto", sans-serif;
+  @media (max-width: 1024px) {
+    left: 11.2rem;
+    width: 48.5rem;
+  }
 }
-
 .contact-container .contact-submit:hover {
-  background: #f7c1ac;
+  background: #f8e7f2;
+  border: 1px solid #f8e7f2;
 }

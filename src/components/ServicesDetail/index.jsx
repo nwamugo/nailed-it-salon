@@ -7,6 +7,14 @@ const ServicesDetail = ({ image, cardTitle }) => {
 
   return (
     <div className="services-detail-container">
+      <div className={`hidden-xs services-image--${appendTitle}`}>
+        <img
+          data-test="logoIMG"
+          src={image}
+          alt="Logo"
+          className="ticketImage"
+        />
+      </div>
       <div
         className={`services-description services-description--${appendTitle}`}
       >
@@ -18,19 +26,11 @@ const ServicesDetail = ({ image, cardTitle }) => {
         </h2>
 
         <button
-          className={`btn-book-now btn-book-now--${appendTitle}`}
+          className={`btn-lg btn-book-now btn-book-now--${appendTitle}`}
           type="submit"
         >
-          Book Now &gt;
+          <span className="button-text">Book Now &gt;</span>
         </button>
-      </div>
-      <div className={`services-image--${appendTitle}`}>
-        <img
-          data-test="logoIMG"
-          src={image}
-          alt="Logo"
-          className="ticketImage"
-        />
       </div>
     </div>
   );

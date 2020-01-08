@@ -1,30 +1,70 @@
 .services-detail-container {
-  width: 70.8rem;
-  height: inherit;
+  width: 100%;
+  height: 30rem;
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 26.75em) { 
-    width: 100%;
+  @media (max-width: 575.98px) {
+    // width: 100%;
+    display: flex;
     height: 28.571rem;
-    display: block;
+    .services-image--manicure,
+    .services-image--pedicure,
+    .services-image--add-ons,
+    .services-nail-extensions {
+      display: none;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    // width: 50%;
+    display: flex;
+    height: 28.571rem;
+    .services-image--manicure,
+    .services-image--pedicure,
+    .services-image--add-ons,
+    .services-nail-extensions {
+      display: none;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    // width: 50%;
+    display: flex;
+    height: 28.571rem;
+    .services-image--manicure,
+    .services-image--pedicure,
+    .services-image--add-ons,
+    .services-nail-extensions {
+      display: none;
+    }
+  }
+  @media (max-width: 1024px) {
+    // width: 50%;
+    display: flex;
+    height: 28.571rem;
+    .services-image--manicure,
+    .services-image--pedicure,
+    .services-image--add-ons,
+    .services-nail-extensions {
+      display: none;
+    }
   }
 }
-
 .services-name {
-  font-size: 4rem;
+  font-size: 2.8rem;
 }
 
 .services-name-border-top {
   width: 4.72rem;
-  height: .288rem;
+  height: 0.288rem;
   margin: 0 auto 3rem;
 
-  &--manicure, &--add-ons {
+  &--manicure,
+  &--add-ons {
     background-color: #000;
-  } 
-  
-  &--pedicure, &--nail-extensions {
+  }
+
+  &--pedicure,
+  &--nail-extensions {
     background-color: #fff;
   }
 }
@@ -35,24 +75,21 @@
   text-align: center;
   padding-top: 6rem;
 
-  &--manicure, &--add-ons {
-    background-color: #ffe4d9;
+  &--manicure,
+  &--add-ons {
+    background-color: #f8e7f2;
     color: #000;
   }
 
-  &--pedicure, &--nail-extensions {
+  &--pedicure,
+  &--nail-extensions {
     background-color: #000;
     color: #fff;
-    
   }
 
   &--nail-extensions {
     order: 1;
   }
-
-  // @media (max-width: 26.75em) {
-  //   flex-grow: 0;
-  // }
 }
 
 .ticketImage {
@@ -60,26 +97,52 @@
   height: 100%;
   object-fit: cover;
 
-  @media (max-width: 26.75em) { 
-    width: 100%;
+  @media (max-width: 575.98px) {
+    display: None;
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    display: None;
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    display: None;
+  }
+  @media (max-width: 1024px) {
+    display: None;
   }
 }
 
 .btn-book-now {
   border: none;
+  border-radius: 1rem;
   cursor: pointer;
-  font-size: 2.5rem;
   margin-top: 6rem;
-  padding: .6rem .3rem .6rem .8rem;
+  padding: 0.8rem 1.6rem 0.8rem 1.6rem;
   text-transform: uppercase;
 
-  &--manicure, &--add-ons {
-    background-color: #f7c1ac;
+  &--manicure,
+  &--add-ons {
+    background-color: #e294c5;
     color: #fff;
   }
 
-  &--pedicure, &--nail-extensions {
+  &--manicure:hover,
+  &--add-ons:hover {
     background-color: #000;
-    color: #f7c1ac;
+    color: #e294c5;
   }
+
+  &--pedicure,
+  &--nail-extensions {
+    background-color: #000;
+    color: #e294c5;
+  }
+
+  &--pedicure:hover,
+  &--nail-extensions:hover {
+    background-color: #e294c5;
+    color: #fff;
+  }
+}
+.button-text {
+  font-size: 1.8rem !important;
 }

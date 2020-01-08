@@ -1,37 +1,83 @@
 .Welcome {
   position: absolute;
   width: 100%;
-  height: 81rem;
-  top: 9.3rem;
+  height: 100rem;
   background: url(welcome.jpg);
   background-size: cover;
 
-  @media (max-width: 26.75em) { 
-    background-image: url(welcome500.jpg);
+  @media (max-width: 575.98px) {
+    background: url(welcome500.jpg);
     background-position: 64% 6%;
+    height: 74rem;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    background: url(welcome500.jpg);
+    background-position: 64% 6%;
+    background-repeat: no-repeat;
+    height: 70rem;
+    width: 100%;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    background-position: 64% 10%;
+    width: 100%;
+    height: 90rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media (max-width: 1024px) {
+    background-position: 64% 10%;
+    width: 100%;
+    height: 70rem;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 .welcome-tag {
   position: relative;
   width: 41.2rem;
   height: 10rem;
-  left: 6rem;
-  top: 32.9rem;
+  left: 7.6rem;
+  top: 42.9rem;
   font-style: normal;
   font-weight: 600;
   font-size: 21.2rem;
   line-height: 10rem;
   letter-spacing: 0.01em;
   color: #000000;
+  @media (max-width: 575.98px) {
+    font-size: 7rem;
+    top: 30.9rem;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    font-size: 9rem;
+    top: 32.9rem;
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    font-size: 9rem;
+    top: 32.9rem;
+  }
+  @media (max-width: 1024px) {
+    font-size: 11rem;
+    top: 25.9rem;
+  }
 }
 .sub-tag {
   position: relative;
   width: 44.9rem;
   height: 2rem;
-  left: 7rem;
-  top: 36.68rem;
+  left: 9rem;
+  top: 46.68rem;
 
-  font-family: 'Libre Baskerville', Roboto, serif;
+  font-family: "Libre Baskerville", Roboto, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 3.52rem;
@@ -39,4 +85,22 @@
   letter-spacing: 0.01em;
 
   color: #000000;
+  @media (max-width: 575.98px) {
+    top: 32.68rem;
+    font-size: 2.52rem;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    top: 36.68rem;
+    font-size: 2.52rem;
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    top: 36.68rem;
+    font-size: 2.52rem;
+  }
+  @media (max-width: 1024px) {
+    top: 26.9rem;
+    font-size: 2.52rem;
+  }
 }

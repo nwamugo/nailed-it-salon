@@ -7,7 +7,9 @@ const Welcome = () => {
     <div className="Welcome">
       <span className="welcome-tag">Welcome</span>
       <br />
-      <span className="sub-tag">To a Full Nail It Experience</span>
+      <span className="sub-tag">
+        To a Full Nailed ; It Spa Salon Experience
+      </span>
     </div>
   );
 };

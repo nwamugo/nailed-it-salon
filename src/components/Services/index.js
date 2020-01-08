@@ -1,15 +1,14 @@
 import React from 'react';
 
 import ServicesCard from '../ServicesCard';
-
 import Pedicure from '../../shared/images/pedicure.png';
 import NailsExtension from '../../shared/images/nailsextension.png';
 import Manicure from '../../shared/images/manicure.png';
 import Addons from '../../shared/images/add-ons.png';
 
-import './ServicesSection.scss';
+import './Services.scss';
 
-const ServicesSection = () => {
+const Services = () => {
   return (
     <div>
       <hr className="services-container-border-line" />
@@ -36,4 +35,4 @@ const ServicesSection = () => {
   );
 };
 
-export default ServicesSection;
+export default Services;

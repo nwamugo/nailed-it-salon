@@ -5,7 +5,7 @@ import { shallow } from 'enzyme';
 import Home from './index';
 import Welcome from '../../components/Welcome';
 import ScrollIndicator from '../../components/ScrollIndicator';
-import ServicesSection from '../../components/ServicesSection';
+import Services from '../../components/Services';
 import Header from '../../shared/components/layout/Header';
 import Footer from '../../shared/components/layout/Footer';
 
@@ -28,7 +28,7 @@ describe('Home', () => {
 
   it('renders the ServicesSection without crashing', () => {
     const div = document.createElement('div');
-    render(<ServicesSection />, div);
+    render(<Services />, div);
   });
 
   it('renders the Header without crashing', () => {

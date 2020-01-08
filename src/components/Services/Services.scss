@@ -1,0 +1,70 @@
+.services-container-border-line {
+  background-color: #000;
+  position: absolute;
+  top: 68.8rem;
+  left: 102.096rem;
+  width: 4.72rem;
+  height: 0.288rem;
+
+  @media (max-width: 575.98px) {
+    left: 46rem;
+    top: 57rem;
+  }
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    left: 49rem;
+    top: 59rem;
+  }
+  @media (max-width: 1024px) {
+    left: 47rem;
+    top: 46rem;
+  }
+}
+
+.services-container {
+  position: absolute;
+  top: 72.8rem;
+  left: 32.4rem;
+  height: 66.571rem;
+  width: 141.6rem;
+  @media (max-width: 1024px) {
+    left: 14.7rem;
+    top: 50rem;
+    width: 70rem;
+  }
+}
+
+.services-container .primary-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-bottom: 4.6rem;
+  @media (max-width: 575.98px) {
+    font-size: 3.52rem;
+  }
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    font-size: 3.52rem;
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    font-size: 3.52rem;
+  }
+  @media (max-width: 1024px) {
+    font-size: 3.52rem;
+  }
+}
+
+.services-container .row {
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.services-container .col-1-of-2 {
+  width: calc((100% / 2));
+}

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ServicesSection should not have regressed 1`] = `
+exports[`Services should not have regressed 1`] = `
 <div>
   <hr
     className="services-container-border-line"

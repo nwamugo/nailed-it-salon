@@ -2,10 +2,9 @@
 
 exports[`Home should not regress 1`] = `
 <div>
-  <Header />
   <Welcome />
-  <ScrollIndicator />
-  <ServicesSection />
+  <Header />
+  <Services />
   <ContactSection />
   <Footer />
 </div>

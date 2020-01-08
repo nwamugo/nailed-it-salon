@@ -5,6 +5,15 @@ exports[`ServicesDetail should not have regressed 1`] = `
   className="services-detail-container"
 >
   <div
+    className="hidden-xs services-image--testingcomponent"
+  >
+    <img
+      alt="Logo"
+      className="ticketImage"
+      data-test="logoIMG"
+    />
+  </div>
+  <div
     className="services-description services-description--testingcomponent"
   >
     <hr
@@ -16,20 +25,15 @@ exports[`ServicesDetail should not have regressed 1`] = `
       TestingComponent
     </h2>
     <button
-      className="btn-book-now btn-book-now--testingcomponent"
+      className="btn-lg btn-book-now btn-book-now--testingcomponent"
       type="submit"
     >
-      Book Now &gt;
+      <span
+        className="button-text"
+      >
+        Book Now &gt;
+      </span>
     </button>
-  </div>
-  <div
-    className="services-image--testingcomponent"
-  >
-    <img
-      alt="Logo"
-      className="ticketImage"
-      data-test="logoIMG"
-    />
   </div>
 </div>
 `;

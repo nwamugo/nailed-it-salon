@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './ServicesCard.scss';
 import ServicesDetail from '../ServicesDetail';
 
 const ServicesCard = props => {

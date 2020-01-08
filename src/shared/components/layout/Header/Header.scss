@@ -1,26 +1,23 @@
-.Header {
-  position: absolute;
+nav {
+  // position: absolute;
   width: 100%;
-  height: 9.3rem;
+  height: 11.3rem;
 }
 
-.head {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2.9rem;
-  line-height: 2.9rem;
-  color: #000000;
-  position: absolute;
-  height: 2.9rem;
-  left: 4.8rem;
-  top: 2.8rem;
+.nav-logo {
+  margin-top: 2.5rem;
+  margin-left: 5.6rem;
+
+  @media (max-width: 575.98px) {
+    width: 85px;
+  }
 }
 
-.menu {
-  position: absolute;
+.navbar-nav {
   height: 1.4rem;
-  left: 66rem;
-  top: 3.6rem;
+  position: absolute;
+  right: 10.8rem;
+  top: 5rem;
   font-style: normal;
   font-weight: normal;
   font-size: 1.8rem;
@@ -31,26 +28,12 @@
   color: #000000;
 }
 
-a {
+.navbar-nav a {
   color: black !important;
 }
-a:hover {
-  color: #f0a07f !important;
+.navbar-nav a:hover {
+  color: #cf6bab !important;
 }
-a.nav-link.active {
-  color: #f0a07f !important;
+.navbar-nav a.nav-link.active {
+  color: #cf6bab !important;
 }
-
-.u-margin-right {
-  margin-right: -19.2rem;
-}
-
-.u-margin-left {
-  margin-left: 2rem;
-}
-
-// .Header .row {
-//   @media (max-width: 26.75em) {
-//     display: none;
-//   }
-// }

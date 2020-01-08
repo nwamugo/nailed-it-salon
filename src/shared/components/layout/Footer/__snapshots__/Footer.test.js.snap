@@ -48,8 +48,15 @@ exports[`Footer should not have regressed 1`] = `
       </a>
       <br />
       <br />
-      <span>
-        Copyright © 2020 by Nail IT
+      <span
+        className="foot-copyright"
+      >
+        Copyright © 2020 by
+        <img
+          className="foot-logo"
+          src=""
+          width="100px"
+        />
       </span>
     </div>
   </div>
