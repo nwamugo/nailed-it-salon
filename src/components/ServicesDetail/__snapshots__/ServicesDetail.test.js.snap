@@ -5,7 +5,7 @@ exports[`ServicesDetail should not have regressed 1`] = `
   className="services-detail-container"
 >
   <div
-    className="hidden-xs services-image--testingcomponent"
+    className="services-image--testingcomponent"
   >
     <img
       alt="Logo"

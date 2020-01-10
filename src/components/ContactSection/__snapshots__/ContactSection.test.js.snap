@@ -18,7 +18,9 @@ exports[`ContactSection should not have regressed 1`] = `
     <h3
       className="primary-location"
     >
-      Ground Foor, Al Raed Groove, Ashirat Sudayr street, Ar Raid, Riyadh 12355
+      Ground Foor, Al Raed Groove, Ashirat Sudayr street,  
+      <br />
+      Ar Raid, Riyadh 12355
     </h3>
     <h3
       className="primary-info"
@@ -33,36 +35,68 @@ exports[`ContactSection should not have regressed 1`] = `
     <h3
       className="primary-info"
     >
-      Mon - Thur & Sat: 11am - 9pm  |  Friday: 2pm - 9pm  |  Sunday: Closed
+      Mon - Thur & Sat: 11am - 9pm
+      <br />
+      Friday: 2pm - 9pm
+      <br />
+      Sunday: Closed
     </h3>
     <div>
       <form>
-        <input
-          className="input-info"
-          placeholder="Name"
-          type="text"
-        />
-        <textarea
-          className="input-message"
-          placeholder="Message"
-        />
-        <br />
-        <input
-          className="input-info"
-          placeholder="Email"
-          type="email"
-        />
-        <br />
-        <input
-          className="input-info"
-          placeholder="Phone"
-          type="text"
-        />
-        <input
-          className="contact-submit"
-          type="submit"
-          value="Submit"
-        />
+        <div
+          className="contact-row form-row align-items-center"
+        >
+          <div
+            className="col"
+          >
+            <input
+              className="form-control contact-info"
+              id="inlineFormInputName"
+              placeholder="Name"
+              type="text"
+            />
+          </div>
+          <div
+            className="col"
+          >
+            <input
+              className="form-control contact-info"
+              id="inlineFormInputEmail"
+              placeholder="Email"
+              type="text"
+            />
+          </div>
+          <div
+            className="col"
+          >
+            <input
+              className="form-control contact-info"
+              id="inlineFormInputPhoneNumber"
+              placeholder="Phone Number"
+              type="text"
+            />
+          </div>
+          <div
+            className="col"
+          >
+            <textarea
+              className="form-control contact-info"
+              id="inlineFormInputeMessage"
+              placeholder="Message"
+              rows="3"
+            />
+          </div>
+          <div
+            className="col-auto"
+          >
+            <button
+              className="btn btn-primary contact-info"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
       </form>
     </div>
     <h3

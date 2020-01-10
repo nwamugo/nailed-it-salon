@@ -7,7 +7,7 @@ const ServicesDetail = ({ image, cardTitle }) => {
 
   return (
     <div className="services-detail-container">
-      <div className={`hidden-xs services-image--${appendTitle}`}>
+      <div className={`services-image--${appendTitle}`}>
         <img
           data-test="logoIMG"
           src={image}

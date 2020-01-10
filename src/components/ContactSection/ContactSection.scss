@@ -27,14 +27,31 @@
 .contact-box {
   position: absolute;
   width: 80rem;
-  height: 65rem;
-  left: 60rem;
+  height: 90rem;
+  left: 47rem;
   align-content: center;
-  top: 160rem;
+  top: 150rem;
   background: #000;
-  @media (max-width: 1024px) {
-    width: 70rem;
-    left: 14.7rem;
+
+  @media (min-width: 320px) and (max-width: 667px) {
+    top: 190rem;
+    left: 10rem;
+    height: 90rem;
+  }
+  @media (min-width: 667px) and (max-width: 812px) {
+    top: 200rem;
+    left: 10rem;
+    height: 90rem;
+  }
+  @media (min-width: 812px) and (max-width: 1024px) {
+    top: 140rem;
+    left: 27rem;
+    height: 90rem;
+  }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    top: 140rem;
+    left: 27rem;
+    height: 90rem;
   }
 }
 
@@ -46,22 +63,15 @@
   width: 4.72rem;
   height: 0.288rem;
 
-  @media (max-width: 575.98px) {
-    left: 46rem;
-  }
-  // Medium devices (tablets, 768px and up)
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    left: 49rem;
-  }
-  @media (max-width: 1024px) {
-    left: 33rem;
+  @media (min-width: 320px) and (max-width: 667px) {
+    left: 36rem;
   }
 }
 
 .contact-container .primary-location {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: #fff;
@@ -70,7 +80,7 @@
 .contact-container .primary-info {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: #fff;
@@ -78,23 +88,21 @@
 .contact-container .primary-thank-you-note {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: #fff;
-  margin-top: 6.5rem;
+  margin-top: 3rem;
 }
 a.primary-direction-route {
   font-family: "Josefin Sans", sans-serif !important;
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: #e294c5 !important;
-  margin-left: 31rem !important;
+  margin-left: 27rem !important;
   text-transform: uppercase;
-  @media (max-width: 1024px) {
-    margin-left: 27rem !important;
-  }
+  text-align: center;
 }
 a.primary-direction-route:hover {
   color: #fff !important;
@@ -104,57 +112,36 @@ a.primary-direction-route:hover {
   text-align: center;
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 2.1rem;
+  font-size: 3rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   margin-top: 4.6rem;
   color: #f8e7f2;
 }
 
-.contact-container .input-message {
-  font-size: 1.7rem;
-  font-family: "Roboto", sans-serif;
-  position: absolute;
-  width: 25.97rem;
-  height: 16.5rem;
-  left: 40rem;
+.contact-info {
+  margin-top: 2.8rem;
   top: 31rem;
-  @media (max-width: 1024px) {
-    left: 34rem;
-    top: 30rem;
-  }
-}
-.contact-container .input-info {
-  margin-top: 3rem;
-  top: 31.57rem;
-  margin-left: 14.87rem;
-  width: 20rem;
-  height: 3.5rem;
+  width: 50rem;
+  height: 4rem;
   font-size: 1.7rem;
+  color: #000;
+  margin-left: 6.3rem;
   font-family: "Roboto", sans-serif;
-  @media (max-width: 1024px) {
-    margin-left: 10.87rem;
-  }
+}
+.contact-row {
+  width: 80%;
+  margin-left: 8rem;
+  align-content: center;
 }
 
-.contact-container .contact-submit {
-  position: absolute;
-  width: 50.72rem;
-  height: 3.5rem;
-  left: 15rem;
-  top: 49.69rem;
+.btn {
+  background-color: #e294c5 !important;
+  border: 1px solid #e294c5 !important;
   border-radius: 1rem;
-  background: #e294c5;
-  border: 1px solid #e294c5;
-  box-sizing: border-box;
-  font-size: 1.7rem;
-  font-family: "Roboto", sans-serif;
-  @media (max-width: 1024px) {
-    left: 11.2rem;
-    width: 48.5rem;
-  }
 }
-.contact-container .contact-submit:hover {
+
+.btn:hover {
   background: #f8e7f2;
   border: 1px solid #f8e7f2;
 }

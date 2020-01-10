@@ -14,44 +14,36 @@ exports[`Services should not have regressed 1`] = `
       Our Services
     </h2>
     <div
-      className="row"
+      className="container-fluid"
     >
-      <span
-        className="col-1-of-2"
+      <div
+        className="row"
       >
         <ServicesCard
           cardTitle="Manicure"
+          className="col"
           image=""
         />
-      </span>
-      <span
-        className="col-1-of-2"
-      >
         <ServicesCard
           cardTitle="Pedicure"
+          className="col"
           image=""
         />
-      </span>
-    </div>
-    <div
-      className="row"
-    >
-      <span
-        className="col-1-of-2"
+      </div>
+      <div
+        className="row"
       >
         <ServicesCard
           cardTitle="Nail Extensions"
+          className="col"
           image=""
         />
-      </span>
-      <span
-        className="col-1-of-2"
-      >
         <ServicesCard
           cardTitle="Add Ons"
+          className="col"
           image=""
         />
-      </span>
+      </div>
     </div>
   </div>
 </div>

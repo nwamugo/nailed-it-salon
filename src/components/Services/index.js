@@ -14,21 +14,35 @@ const Services = () => {
       <hr className="services-container-border-line" />
       <div className="services-container">
         <h2 className="primary-header">Our Services</h2>
-        <div className="row">
-          <span className="col-1-of-2">
-            <ServicesCard image={Manicure} cardTitle="Manicure" />
-          </span>
-          <span className="col-1-of-2">
-            <ServicesCard image={Pedicure} cardTitle="Pedicure" />
-          </span>
-        </div>
-        <div className="row">
-          <span className="col-1-of-2">
-            <ServicesCard image={NailsExtension} cardTitle="Nail Extensions" />
-          </span>
-          <span className="col-1-of-2">
-            <ServicesCard image={Addons} cardTitle="Add Ons" />
-          </span>
+        <div className="container-fluid">
+          <div className="row">
+            {/* <span className="col"> */}
+            <ServicesCard
+              className="col"
+              image={Manicure}
+              cardTitle="Manicure"
+            />
+            {/* </span> */}
+            {/* <span className="col"> */}
+            <ServicesCard
+              className="col"
+              image={Pedicure}
+              cardTitle="Pedicure"
+            />
+            {/* </span> */}
+          </div>
+          <div className="row">
+            {/* <span className="col"> */}
+            <ServicesCard
+              className="col"
+              image={NailsExtension}
+              cardTitle="Nail Extensions"
+            />
+            {/* </span> */}
+            {/* <span className="col"> */}
+            <ServicesCard image={Addons} className="col" cardTitle="Add Ons" />
+            {/* </span> */}
+          </div>
         </div>
       </div>
     </div>

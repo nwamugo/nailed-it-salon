@@ -2,69 +2,121 @@
   background-color: #000;
   position: absolute;
   top: 68.8rem;
-  left: 102.096rem;
+  left: 15.096rem;
   width: 4.72rem;
   height: 0.288rem;
 
-  @media (max-width: 575.98px) {
-    left: 46rem;
-    top: 57rem;
+  @media (min-width: 320px) and (max-width: 667px) {
+    left: 47rem;
+    top: 44rem;
   }
-  // Medium devices (tablets, 768px and up)
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    left: 49rem;
+  @media (min-width: 667px) and (max-width: 812px) {
+    left: 64rem;
+    top: 56rem;
+  }
+  @media (min-width: 812px) and (max-width: 1024px) {
+    left: 64rem;
     top: 59rem;
   }
-  @media (max-width: 1024px) {
-    left: 47rem;
-    top: 46rem;
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    left: 64rem;
+    top: 55rem;
+  }
+  @media (min-width: 1366px) and (max-width: 1520px) {
+    left: 79rem;
+    top: 65rem;
+  }
+  @media (min-width: 1520px) and (max-width: 1920px) {
+    left: 90rem;
+    top: 65rem;
   }
 }
 
 .services-container {
   position: absolute;
-  top: 72.8rem;
-  left: 32.4rem;
+  top: 72rem;
+  left: 39rem;
   height: 66.571rem;
-  width: 141.6rem;
-  @media (max-width: 1024px) {
-    left: 14.7rem;
-    top: 50rem;
-    width: 70rem;
+  width: 120rem;
+
+  @media (min-width: 320px) and (max-width: 667px) {
+    left: 20rem;
+    top: 47.2rem;
+    width: 60rem;
+  }
+  @media (min-width: 667px) and (max-width: 812px) {
+    left: 20rem;
+    top: 59.2rem;
+    width: 60rem;
+  }
+  @media (min-width: 812px) and (max-width: 1024px) {
+    left: 16rem;
+    top: 62.2rem;
+    width: 120rem;
+  }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    left: 7.4rem;
+    top: 58.2rem;
+    width: 120rem;
+  }
+  @media (min-width: 1366px) and (max-width: 1520px) {
+    margin-left: 57rem;
+    width: 120rem;
+  }
+  @media (min-width: 1520px) and (max-width: 1920px) {
+    margin-left: 64rem;
+    width: 120rem;
   }
 }
 
 .services-container .primary-header {
-  text-align: center;
+  margin-left: 40rem;
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
   font-size: 4.5rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   margin-bottom: 4.6rem;
-  @media (max-width: 575.98px) {
-    font-size: 3.52rem;
-  }
 
-  // Small devices (landscape phones, 576px and up)
-  @media (min-width: 576px) and (max-width: 767.98px) {
-    font-size: 3.52rem;
+  @media (min-width: 320px) and (max-width: 667px) {
+    margin-left: 19rem;
+    font-size: 3rem;
   }
-
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    font-size: 3.52rem;
+  @media (min-width: 667px) and (max-width: 812px) {
+    margin-left: 20rem;
   }
-  @media (max-width: 1024px) {
-    font-size: 3.52rem;
+  @media (min-width: 812px) and (max-width: 1024px) {
+    margin-left: 32rem;
+  }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    margin-left: 40rem;
+  }
+  @media (min-width: 1366px) and (max-width: 1520px) {
+    margin-left: -30rem;
+  }
+  @media (min-width: 1520px) and (max-width: 1920px) {
+    margin-left: -30rem;
   }
 }
 
-.services-container .row {
-  max-width: 100%;
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.services-container .col-1-of-2 {
-  width: calc((100% / 2));
+.services-container .container-fluid {
+  margin-left: -60rem;
+  width: 120rem;
+  @media (min-width: 320px) and (max-width: 667px) {
+    margin-left: 0rem;
+    width: 60rem;
+  }
+  @media (min-width: 667px) and (max-width: 812px) {
+    margin-left: 0rem;
+    width: 60rem;
+  }
+  @media (min-width: 812px) and (max-width: 1024px) {
+    margin-left: 0rem;
+  }
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    margin-left: 0rem;
+  }
+  @media (min-width: 1366px) and (max-width: 1920px) {
+    margin-left: -70rem;
+  }
 }
