@@ -25,7 +25,7 @@ exports[`ContactSection should not have regressed 1`] = `
     <h3
       className="primary-info"
     >
-      info@mysite.com  |  Tel: 123-456-7890
+      info@mysite.com  |  +966 56 057 7709
     </h3>
     <h2
       className="secondary-header"

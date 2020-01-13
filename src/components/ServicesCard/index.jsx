@@ -5,7 +5,11 @@ import ServicesDetail from '../ServicesDetail';
 const ServicesCard = props => {
   return (
     <div className="services-bouquet">
-      <ServicesDetail image={props.image} cardTitle={props.cardTitle} />
+      <ServicesDetail
+        image={props.image}
+        cardTitle={props.cardTitle}
+        appointment={props.appointment}
+      />
     </div>
   );
 };

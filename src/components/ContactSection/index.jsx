@@ -14,7 +14,7 @@ const ContactSection = () => {
           Ar Raid, Riyadh 12355
         </h3>
         <h3 className="primary-info">
-          info@mysite.com&nbsp;&nbsp;|&nbsp;&nbsp;Tel: 123-456-7890
+          info@mysite.com&nbsp;&nbsp;|&nbsp;&nbsp;+966 56 057 7709
         </h3>
         <h2 className="secondary-header">Opening Hours</h2>
         <h3 className="primary-info">

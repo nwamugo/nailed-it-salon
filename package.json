@@ -30,7 +30,8 @@
     "lint": "eslint .",
     "test": "jest -u",
     "test:watch": "jest --watch",
-    "coverage": "jest --collectCoverage --coveragePathIgnorePatterns=src/index.js --coveragePathIgnorePatterns=src/serviceWorker.js"
+    "coverage": "jest --collectCoverage --coveragePathIgnorePatterns=src/index.js --coveragePathIgnorePatterns=src/serviceWorker.js",
+    "autoprefixer": "postcss src/**/*.scss --use autoprefixer -d build/"
   },
   "jest": {
     "verbose": true,
@@ -79,9 +80,12 @@
     ]
   },
   "devDependencies": {
+    "autoprefixer": "^9.7.3",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-prettier": "^3.1.1",
+    "postcss-cli": "^7.1.0",
+    "postcss-sass-loader": "^1.1.0",
     "prettier": "^1.19.1"
   }
 }

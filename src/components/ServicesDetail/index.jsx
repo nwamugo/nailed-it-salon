@@ -2,7 +2,7 @@ import React from 'react';
 
 import './ServicesDetail.scss';
 
-const ServicesDetail = ({ image, cardTitle }) => {
+const ServicesDetail = ({ image, cardTitle, appointment }) => {
   const appendTitle = cardTitle.toLowerCase().replace(' ', '-');
 
   return (
@@ -28,6 +28,7 @@ const ServicesDetail = ({ image, cardTitle }) => {
         <button
           className={`btn-lg btn-book-now btn-book-now--${appendTitle}`}
           type="submit"
+          onClick={appointment}
         >
           <span className="button-text">Book Now &gt;</span>
         </button>
