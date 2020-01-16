@@ -2,7 +2,7 @@ import React from 'react';
 
 import './ServicesDetail.scss';
 
-const ServicesDetail = ({ image, cardTitle, appointment }) => {
+const ServicesDetail = ({ image, cardTitle }) => {
   const appendTitle = cardTitle.toLowerCase().replace(' ', '-');
 
   return (
@@ -24,14 +24,13 @@ const ServicesDetail = ({ image, cardTitle, appointment }) => {
         <h2 className={`services-name services-name--${appendTitle}`}>
           {cardTitle}
         </h2>
-
-        <button
-          className={`btn-lg btn-book-now btn-book-now--${appendTitle}`}
-          type="submit"
-          onClick={appointment}
+        <a
+          className={`btn btn-book-now btn-book-now--${appendTitle}`}
+          href="https://nailsaloninvisibles.simplespa.com/#"
+          role="button"
         >
           <span className="button-text">Book Now &gt;</span>
-        </button>
+        </a>
       </div>
     </div>
   );

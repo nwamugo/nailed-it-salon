@@ -9,9 +9,6 @@ import Addons from '../../shared/images/add-ons.png';
 import './Services.scss';
 
 const Services = () => {
-  const relocateAppointmentPage = () => {
-    // location.href = 'https://nailsaloninvisibles.simplespa.com/#';
-  };
   return (
     <div>
       <hr className="services-container-border-line" />
@@ -23,13 +20,11 @@ const Services = () => {
               className="col"
               image={Manicure}
               cardTitle="Manicure"
-              appointment={relocateAppointmentPage()}
             />
             <ServicesCard
               className="col"
               image={Pedicure}
               cardTitle="Pedicure"
-              appointment={relocateAppointmentPage()}
             />
           </div>
           <div className="row">
@@ -37,14 +32,8 @@ const Services = () => {
               className="col"
               image={NailsExtension}
               cardTitle="Nail Extensions"
-              appointment={relocateAppointmentPage()}
             />
-            <ServicesCard
-              image={Addons}
-              className="col"
-              cardTitle="Add Ons"
-              appointment={relocateAppointmentPage()}
-            />
+            <ServicesCard image={Addons} className="col" cardTitle="Add Ons" />
           </div>
         </div>
       </div>

@@ -71,21 +71,9 @@
     color: #fff;
   }
 
-  &--manicure:hover,
-  &--add-ons:hover {
-    background-color: #000;
-    color: #e294c5;
-  }
-
   &--pedicure,
   &--nail-extensions {
     background-color: #000;
-    color: #e294c5;
-  }
-
-  &--pedicure:hover,
-  &--nail-extensions:hover {
-    background-color: #e294c5;
     color: #fff;
   }
 }
