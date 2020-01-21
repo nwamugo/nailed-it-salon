@@ -7,7 +7,7 @@ function Header() {
     <div className="Header">
       <nav className="navbar navbar-expand-lg navbar-light">
         <a className="navbar-brand" href="#">
-          <img className="nav-logo" src={NailLogo} width="120px" />
+          <img className="nav-logo" src={NailLogo} width="150px" />
         </a>
         <button
           className="navbar-toggler"
@@ -24,7 +24,7 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item u-margin-left">
-              <a className="nav-link active" href="#">
+              <a className="nav-link active" href="/">
                 HOME
               </a>
             </li>

@@ -69,9 +69,8 @@ const ContactSection = () => {
         </div>
         <h3 className="primary-thank-you-note">Thank You For Contacting Us</h3>
         <a
-          href="#"
+          href="/directions"
           className="primary-direction-route"
-          target="_blank"
           rel="noopener noreferrer"
         >
           See Directions &gt;

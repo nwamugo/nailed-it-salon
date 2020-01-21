@@ -1,107 +1,74 @@
 .Welcome {
-  position: absolute;
   width: 100%;
-  height: 100rem;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
   background: url(welcome.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  @media (min-width: 320px) and (max-width: 667px) {
-    background: url(welcome500.jpg);
-    background-size: cover;
-    height: 65rem;
-    background-repeat: no-repeat;
-    width: 100%;
-  }
-  @media (min-width: 667px) and (max-width: 812px) {
-    background: url(welcome500.jpg);
-    background-size: cover;
+  
+  @media (min-width: 320px) and (max-width: 480px) {
     height: 70rem;
-    background-repeat: no-repeat;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    height: 70rem;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    height: 75rem;
+  }
+}
+.welcome-pad {
+  width: 85%;
+  margin: 0 auto;
+  padding: 0;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 87%;
+  }
+}
+.welcome-note {
+  text-align: center;
+  width: 740px;
+  margin-top: 200px;
+  padding: 0;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    margin-top: 50px;
     width: 100%;
   }
-  @media (min-width: 812px) and (max-width: 1024px) {
-    height: 110rem;
-  }
-  @media (min-width: 1024px) and (max-width: 1366px) {
-    height: 80rem;
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin-top: 80px;
+    width: 100%;
   }
 }
 .welcome-tag {
-  position: relative;
-  width: 41.2rem;
-  height: 10rem;
-  left: 30rem;
-  top: 42.9rem;
   font-style: normal;
   font-weight: 600;
-  font-size: 21.2rem;
+  font-size: 12rem;
   line-height: 10rem;
   letter-spacing: 0.01em;
   color: #000000;
-  @media (min-width: 320px) and (max-width: 667px) {
-    top: 25rem;
-    left: 12rem;
-    font-size: 11rem;
-  }
-  @media (min-width: 667px) and (max-width: 812px) {
-    top: 32rem;
-    left: 16rem;
-    font-size: 16rem;
-  }
-  @media (min-width: 812px) and (max-width: 1024px) {
-    top: 32rem;
-    left: 16rem;
-    font-size: 16rem;
-  }
-  @media (min-width: 1024px) and (max-width: 1366px) {
-    top: 32rem;
-    left: 16rem;
-    font-size: 16rem;
-  }
-  @media (min-width: 1366px) and (max-width: 1920px) {
-    top: 42rem;
-    left: 16rem;
-    font-size: 18rem;
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 10rem;
   }
 }
 .sub-tag {
-  position: relative;
-  width: 44.9rem;
-  height: 2rem;
-  left: 30rem;
-  top: 46.68rem;
-
   font-family: "Libre Baskerville", Roboto, serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 3.52rem;
+  font-size: 2.7rem;
   line-height: 2rem;
   letter-spacing: 0.01em;
-
   color: #000000;
-  @media (min-width: 320px) and (max-width: 667px) {
-    top: 27rem;
-    left: 14rem;
+
+  @media (min-width: 320px) and (max-width: 480px) {
     font-size: 2rem;
   }
-  @media (min-width: 667px) and (max-width: 812px) {
-    top: 35rem;
-    left: 18rem;
-    font-size: 2.8rem;
+  @media (min-width: 481px) and (max-width: 767px) {
+    font-size: 2.3rem;
   }
-  @media (min-width: 812px) and (max-width: 1024px) {
-    top: 34rem;
-    left: 18rem;
-    font-size: 2.8rem;
-  }
-  @media (min-width: 1024px) and (max-width: 1366px) {
-    top: 34rem;
-    left: 18rem;
-    font-size: 2.8rem;
-  }
-  @media (min-width: 1366px) and (max-width: 1920px) {
-    top: 44rem;
-    left: 18rem;
-    font-size: 3rem;
+  @media (min-width: 768px) and (max-width: 1024px) {
+    font-size: 2.5rem;
   }
 }

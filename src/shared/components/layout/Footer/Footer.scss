@@ -1,12 +1,11 @@
 .Footer {
   position: absolute;
   width: 100%;
-  height: 20rem;
-  top: 245rem;
+  padding: 3rem;
+  // height: 20rem;
   background: black;
 
   @media (min-width: 320px) and (max-width: 667px) {
-    top: 289rem;
     height: 22rem;
   }
 }

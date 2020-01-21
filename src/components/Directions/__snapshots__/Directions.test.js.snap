@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactSection should not have regressed 1`] = `
+<div
+  className="direction-box"
+>
+  <Header />
+  <hr
+    className="direction-container-border-line"
+  />
+  <div
+    className="direction-container"
+  >
+    <h2
+      className="primary-header"
+    >
+      Directions
+    </h2>
+    <h3
+      className="primary-location"
+    >
+      Ground Foor, Al Raed Groove, Ashirat Sudayr street,  
+      <br />
+      Ar Raid, Riyadh 12355
+    </h3>
+    <h3
+      className="primary-info"
+    >
+      info@mysite.com  |  +966 56 057 7709
+    </h3>
+    <h2
+      className="secondary-header"
+    >
+      Opening Hours
+    </h2>
+    <h3
+      className="primary-info"
+    >
+      Mon - Thur & Sat: 11am - 9pm
+      <br />
+      Friday: 2pm - 9pm
+      <br />
+      Sunday: Closed
+    </h3>
+    <div
+      className="map"
+    >
+      <withScriptjs(withGoogleMap(Component))
+        containerElement={
+          <div
+            style={
+              Object {
+                "height": "400px",
+              }
+            }
+          />
+        }
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=undefined&v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={
+          <div
+            style={
+              Object {
+                "height": "100%",
+              }
+            }
+          />
+        }
+        mapElement={
+          <div
+            style={
+              Object {
+                "height": "100%",
+              }
+            }
+          />
+        }
+      />
+      ;
+    </div>
+  </div>
+</div>
+`;

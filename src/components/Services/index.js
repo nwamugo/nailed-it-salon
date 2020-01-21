@@ -10,30 +10,36 @@ import './Services.scss';
 
 const Services = () => {
   return (
-    <div>
-      <hr className="services-container-border-line" />
-      <div className="services-container">
-        <h2 className="primary-header">Our Services</h2>
-        <div className="container-fluid">
-          <div className="row">
-            <ServicesCard
-              className="col"
-              image={Manicure}
-              cardTitle="Manicure"
-            />
-            <ServicesCard
-              className="col"
-              image={Pedicure}
-              cardTitle="Pedicure"
-            />
-          </div>
-          <div className="row">
-            <ServicesCard
-              className="col"
-              image={NailsExtension}
-              cardTitle="Nail Extensions"
-            />
-            <ServicesCard image={Addons} className="col" cardTitle="Add Ons" />
+    <div className="serving">
+      <div className="serving-board">
+        <hr className="services-container-border-line" />
+        <div className="services-container">
+          <h2 className="primary-header">Our Services</h2>
+          <div className="container-fluid">
+            <div className="row">
+              <ServicesCard
+                className="col"
+                image={Manicure}
+                cardTitle="Manicure"
+              />
+              <ServicesCard
+                className="col"
+                image={Pedicure}
+                cardTitle="Pedicure"
+              />
+            </div>
+            <div className="row">
+              <ServicesCard
+                className="col"
+                image={NailsExtension}
+                cardTitle="Nail Extensions"
+              />
+              <ServicesCard
+                image={Addons}
+                className="col"
+                cardTitle="Add Ons"
+              />
+            </div>
           </div>
         </div>
       </div>

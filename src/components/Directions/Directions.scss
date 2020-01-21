@@ -1,0 +1,61 @@
+.direction-container .primary-header {
+  color: #e294c5;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-top: 5rem;
+}
+.direction-box {
+  width: 85%;
+  margin: 0 auto;
+  align-content: center;
+  border: 1px solid red;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 87%;
+  }
+}
+.direction-box .direction-container-border-line {
+  background-color: #000;
+  top: 1rem;
+  width:3%; 
+  margin: auto;
+  width: 4.72rem;
+  height: 0.288rem;
+}
+
+.direction-container .primary-location {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #000;
+  margin-top: 2.8rem;
+}
+.direction-container .primary-info {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #000;
+}
+
+.direction-container .secondary-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-top: 4.6rem;
+  color: #e294c5;
+}
+
+.map {
+  margin-top: 7rem;
+}

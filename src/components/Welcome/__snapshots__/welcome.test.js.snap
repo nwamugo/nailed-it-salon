@@ -4,16 +4,27 @@ exports[`Welcome should not have regressed 1`] = `
 <div
   className="Welcome"
 >
-  <span
-    className="welcome-tag"
+  <div
+    className="welcome-pad"
   >
-    Welcome
-  </span>
-  <br />
-  <span
-    className="sub-tag"
-  >
-    To a Full Nailed It Spa Salon Experience
-  </span>
+    <Header />
+    <div
+      className="welcome-note"
+    >
+      <span
+        className="welcome-tag"
+      >
+        Welcome
+      </span>
+      <br />
+      <br />
+      <br />
+      <span
+        className="sub-tag"
+      >
+        To a Full Nailed It Spa Salon Experience
+      </span>
+    </div>
+  </div>
 </div>
 `;

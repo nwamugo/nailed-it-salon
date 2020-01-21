@@ -10,6 +10,12 @@ exports[`Footer should not have regressed 1`] = `
     <div
       className="foot col-md-12"
     >
+      <img
+        className="foot-logo"
+        src=""
+        width="130px"
+      />
+      <br />
       <a
         className="social"
         href="#"
@@ -51,12 +57,7 @@ exports[`Footer should not have regressed 1`] = `
       <span
         className="foot-copyright"
       >
-        Copyright © 2020 by
-        <img
-          className="foot-logo"
-          src=""
-          width="100px"
-        />
+        Copyright © 2020
       </span>
     </div>
   </div>

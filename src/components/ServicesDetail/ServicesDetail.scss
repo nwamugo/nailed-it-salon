@@ -1,17 +1,22 @@
 .services-detail-container {
-  width: 60rem;
+  width: 70rem;
   height: 30rem;
   display: flex;
   justify-content: space-between;
 
-  @media (min-width: 320px) and (max-width: 667px) {
-    margin-bottom: 5px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    margin-top: 5px;
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    margin-top: 3px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    margin-top: 1px;
   }
 }
 .services-name {
   font-size: 2.8rem;
 }
-
 .services-name-border-top {
   width: 4.72rem;
   height: 0.288rem;
@@ -27,12 +32,11 @@
     background-color: #fff;
   }
 }
-
 .services-description {
   font-family: "Libre Baskerville";
   text-align: center;
   padding-top: 6rem;
-  width: 30rem;
+  width: 35rem;
 
   &--manicure,
   &--add-ons {
@@ -50,13 +54,11 @@
     order: 1;
   }
 }
-
 .ticketImage {
-  width: 30rem;
+  width: 35rem;
   height: 100%;
   object-fit: cover;
 }
-
 .btn-book-now {
   border: none;
   border-radius: 1rem;

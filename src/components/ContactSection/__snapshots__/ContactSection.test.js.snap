@@ -106,9 +106,8 @@ exports[`ContactSection should not have regressed 1`] = `
     </h3>
     <a
       className="primary-direction-route"
-      href="#"
+      href="/directions"
       rel="noopener noreferrer"
-      target="_blank"
     >
       See Directions &gt;
     </a>

@@ -6,13 +6,10 @@ import NailLogo from '../../../images/nailLogo.png';
 const Footer = () => {
   return (
     <div className="Footer">
-      {/* <div>
-        <span>
-          <img src={NailLogo} className="foot-logo" width="90px" />
-        </span>
-      </div> */}
       <div className="row">
         <div className="foot col-md-12">
+          <img src={NailLogo} width="130px" className="foot-logo" />
+          <br />
           <a
             href="#"
             className="social"
@@ -42,8 +39,7 @@ const Footer = () => {
           <br />
           <br />
           <span className="foot-copyright">
-            Copyright &copy; 2020 by
-            <img src={NailLogo} width="100px" className="foot-logo" />
+            Copyright &copy; 2020
           </span>
         </div>
       </div>

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Directions should not regress 1`] = `
+<div>
+  <Direction />
+  <Footer />
+</div>
+`;

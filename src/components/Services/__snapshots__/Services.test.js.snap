@@ -1,48 +1,54 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Services should not have regressed 1`] = `
-<div>
-  <hr
-    className="services-container-border-line"
-  />
+<div
+  className="serving"
+>
   <div
-    className="services-container"
+    className="serving-board"
   >
-    <h2
-      className="primary-header"
-    >
-      Our Services
-    </h2>
+    <hr
+      className="services-container-border-line"
+    />
     <div
-      className="container-fluid"
+      className="services-container"
     >
-      <div
-        className="row"
+      <h2
+        className="primary-header"
       >
-        <ServicesCard
-          cardTitle="Manicure"
-          className="col"
-          image=""
-        />
-        <ServicesCard
-          cardTitle="Pedicure"
-          className="col"
-          image=""
-        />
-      </div>
+        Our Services
+      </h2>
       <div
-        className="row"
+        className="container-fluid"
       >
-        <ServicesCard
-          cardTitle="Nail Extensions"
-          className="col"
-          image=""
-        />
-        <ServicesCard
-          cardTitle="Add Ons"
-          className="col"
-          image=""
-        />
+        <div
+          className="row"
+        >
+          <ServicesCard
+            cardTitle="Manicure"
+            className="col"
+            image=""
+          />
+          <ServicesCard
+            cardTitle="Pedicure"
+            className="col"
+            image=""
+          />
+        </div>
+        <div
+          className="row"
+        >
+          <ServicesCard
+            cardTitle="Nail Extensions"
+            className="col"
+            image=""
+          />
+          <ServicesCard
+            cardTitle="Add Ons"
+            className="col"
+            image=""
+          />
+        </div>
       </div>
     </div>
   </div>
