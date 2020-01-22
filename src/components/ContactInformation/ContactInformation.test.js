@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import ScrollIndicator from './index';
+import ContactInformation from './index';
 
-describe('ScrollIndicator', () => {
+describe('ContactSection', () => {
   it('should not have regressed', () => {
-    const component = shallow(<ScrollIndicator />);
+    const component = shallow(<ContactInformation />);
 
     expect(component).toMatchSnapshot();
   });

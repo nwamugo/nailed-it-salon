@@ -13,7 +13,6 @@ const Welcome = () => {
           <br />
           <br />
           <br />
-          {/* <br /> */}
           <span className="sub-tag">
             To a Full Nailed It Spa Salon Experience
           </span>

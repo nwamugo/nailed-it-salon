@@ -4,7 +4,6 @@ import { shallow } from 'enzyme';
 
 import Home from './index';
 import Welcome from '../../components/Welcome';
-// import ScrollIndicator from '../../components/ScrollIndicator';
 import Services from '../../components/Services';
 import Header from '../../shared/components/layout/Header';
 import Footer from '../../shared/components/layout/Footer';
@@ -21,11 +20,6 @@ describe('Home', () => {
     const div = document.createElement('div');
     render(<Welcome />, div);
   });
-
-  // it('renders the ScrollIndicator without crashing', () => {
-  //   const div = document.createElement('div');
-  //   render(<ScrollIndicator />, div);
-  // });
 
   it('renders the ServicesSection without crashing', () => {
     const div = document.createElement('div');
