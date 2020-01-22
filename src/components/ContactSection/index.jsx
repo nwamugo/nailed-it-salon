@@ -4,7 +4,7 @@ import './ContactSection.scss';
 
 const ContactSection = () => {
   return (
-    <div className="contact-box">
+    <div className="contact-box" id="contactus">
       <hr className="contact-container-border-line" />
       <div className="contact-container">
         <h2 className="primary-header">Contact Us</h2>

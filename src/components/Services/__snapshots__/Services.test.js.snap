@@ -3,6 +3,7 @@
 exports[`Services should not have regressed 1`] = `
 <div
   className="serving"
+  id="serving"
 >
   <div
     className="serving-board"

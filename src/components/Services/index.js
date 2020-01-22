@@ -10,7 +10,7 @@ import './Services.scss';
 
 const Services = () => {
   return (
-    <div className="serving">
+    <div className="serving" id="serving">
       <div className="serving-board">
         <hr className="services-container-border-line" />
         <div className="services-container">

@@ -3,6 +3,7 @@
 exports[`ContactSection should not have regressed 1`] = `
 <div
   className="contact-box"
+  id="contactus"
 >
   <hr
     className="contact-container-border-line"

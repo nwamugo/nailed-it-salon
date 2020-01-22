@@ -6,8 +6,8 @@ function Header() {
   return (
     <div className="Header">
       <nav className="navbar navbar-expand-lg navbar-light">
-        <a className="navbar-brand" href="#">
-          <img className="nav-logo" src={NailLogo} width="150px" />
+        <a className="navbar-brand" href="/">
+          <img className="nav-logo" src={NailLogo} width="200px" />
         </a>
         <button
           className="navbar-toggler"
@@ -24,12 +24,26 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item u-margin-left">
-              <a className="nav-link active" href="/">
+              <a
+                className={`nav-link ${
+                  window.location.pathname.indexOf('directions') > -1
+                    ? ''
+                    : 'active'
+                }`}
+                href="/"
+              >
                 HOME
               </a>
             </li>
             <li className="nav-item u-margin-left">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href={
+                  window.location.pathname.indexOf('directions') > -1
+                    ? '/#serving'
+                    : '#serving'
+                }
+              >
                 OUR SERVICES
               </a>
             </li>
@@ -39,13 +53,27 @@ function Header() {
               </a>
             </li>
             <li className="nav-item u-margin-left">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="https://nailsaloninvisibles.simplespa.com/#"
+              >
                 MAKE AN APPOINTMENT
               </a>
             </li>
             <li className="nav-item u-margin-left">
-              <a className="nav-link" href="#">
-                CONTACT
+              <a
+                className={`nav-link ${
+                  window.location.pathname.indexOf('directions') > -1
+                    ? 'active'
+                    : ''
+                }`}
+                href={
+                  window.location.pathname.indexOf('directions') > -1
+                    ? '/#contactus'
+                    : '#contactus'
+                }
+              >
+                CONTACT US
               </a>
             </li>
           </ul>
