@@ -48,7 +48,14 @@ function Header() {
               </a>
             </li>
             <li className="nav-item u-margin-left">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href={
+                  window.location.pathname.indexOf('directions') > -1
+                    ? '/#ourstory'
+                    : '#ourstory'
+                }
+              >
                 OUR STORY
               </a>
             </li>
