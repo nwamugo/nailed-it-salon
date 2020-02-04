@@ -2,12 +2,12 @@ const config = {
   babelrc: false,
   presets: [
     [
-      '@babel/env',
+      '@babel/preset-env',
       {
-        modules: false
+        useBuiltIns: 'entry'
       }
     ],
-    '@babel/react'
+    '@babel/preset-react'
   ],
   plugins: [
     ['@babel/plugin-proposal-decorators', { legacy: true }],

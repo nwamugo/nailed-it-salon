@@ -12,6 +12,7 @@ exports[`Header should not have regressed 1`] = `
       href="/"
     >
       <img
+        alt="side navigation bar"
         className="nav-logo"
         src=""
         width="200px"
@@ -62,7 +63,7 @@ exports[`Header should not have regressed 1`] = `
         >
           <a
             className="nav-link"
-            href="#"
+            href="#ourstory"
           >
             OUR STORY
           </a>

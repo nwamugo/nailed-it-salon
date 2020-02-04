@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="Footer">
       <div className="row">
         <div className="foot col-md-12">
-          <img src={NailLogo} width="130px" className="foot-logo" />
+          <img src={NailLogo} width="130px" className="foot-logo" alt="logo" />
           <br />
           <a
             href="#"
@@ -38,9 +38,7 @@ const Footer = () => {
           </a>
           <br />
           <br />
-          <span className="foot-copyright">
-            Copyright &copy; 2020
-          </span>
+          <span className="foot-copyright">Copyright &copy; 2020</span>
         </div>
       </div>
     </div>

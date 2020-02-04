@@ -23,6 +23,8 @@ exports[`ContactSection should not have regressed 1`] = `
             <input
               className="form-control contact-info"
               id="inlineFormInputName"
+              name="name"
+              onChange={[Function]}
               placeholder="Name"
               type="text"
             />
@@ -33,6 +35,8 @@ exports[`ContactSection should not have regressed 1`] = `
             <input
               className="form-control contact-info"
               id="inlineFormInputEmail"
+              name="email"
+              onChange={[Function]}
               placeholder="Email"
               type="text"
             />
@@ -43,6 +47,8 @@ exports[`ContactSection should not have regressed 1`] = `
             <input
               className="form-control contact-info"
               id="inlineFormInputPhoneNumber"
+              name="phone"
+              onChange={[Function]}
               placeholder="Phone Number"
               type="text"
             />
@@ -53,6 +59,8 @@ exports[`ContactSection should not have regressed 1`] = `
             <textarea
               className="form-control contact-info"
               id="inlineFormInputeMessage"
+              name="message"
+              onChange={[Function]}
               placeholder="Message"
               rows="3"
             />
@@ -62,6 +70,7 @@ exports[`ContactSection should not have regressed 1`] = `
           >
             <button
               className="btn btn-primary contact-info"
+              onClick={[Function]}
               type="submit"
             >
               Submit

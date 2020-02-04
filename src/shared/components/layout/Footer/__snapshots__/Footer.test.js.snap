@@ -11,6 +11,7 @@ exports[`Footer should not have regressed 1`] = `
       className="foot col-md-12"
     >
       <img
+        alt="logo"
         className="foot-logo"
         src=""
         width="130px"

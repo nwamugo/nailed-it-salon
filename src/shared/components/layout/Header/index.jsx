@@ -7,7 +7,12 @@ function Header() {
     <div className="Header">
       <nav className="navbar navbar-expand-lg navbar-light">
         <a className="navbar-brand" href="/">
-          <img className="nav-logo" src={NailLogo} width="200px" />
+          <img
+            className="nav-logo"
+            src={NailLogo}
+            width="200px"
+            alt="side navigation bar"
+          />
         </a>
         <button
           className="navbar-toggler"
