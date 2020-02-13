@@ -1,6 +1,7 @@
 {
   "name": "nail-salon-app",
   "version": "0.1.0",
+  "homepage": "http://naileditsa.com",
   "description": "The frontend application to the Nail Salon Application",
   "main": "index.js",
   "private": true,
