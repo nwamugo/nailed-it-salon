@@ -19,12 +19,11 @@ exports[`Footer should not have regressed 1`] = `
       <br />
       <a
         className="social"
-        href="#"
+        href="https://www.snapchat.com/add/n_naileditsa"
         rel="noopener noreferrer"
-        target="_blank"
       >
         <i
-          className="fab fa-facebook"
+          className="fab fa-snapchat"
         />
       </a>
       <span>
@@ -32,9 +31,8 @@ exports[`Footer should not have regressed 1`] = `
       </span>
       <a
         className="social"
-        href="#"
+        href="https://www.instagram.com/20naileditsa/"
         rel="noopener noreferrer"
-        target="_blank"
       >
         <i
           className="fab fa-instagram"
@@ -43,16 +41,6 @@ exports[`Footer should not have regressed 1`] = `
       <span>
            
       </span>
-      <a
-        className="social"
-        href="#"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <i
-          className="fab fa-twitter"
-        />
-      </a>
       <br />
       <br />
       <span

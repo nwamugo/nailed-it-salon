@@ -11,31 +11,29 @@ const Footer = () => {
           <img src={NailLogo} width="130px" className="foot-logo" alt="logo" />
           <br />
           <a
-            href="#"
+            href="https://www.snapchat.com/add/n_naileditsa"
             className="social"
-            target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-facebook" />
+            <i className="fab fa-snapchat" />
           </a>
           <span>&nbsp;&nbsp;&nbsp;</span>
           <a
-            href="#"
+            href="https://www.instagram.com/20naileditsa/"
             className="social"
-            target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-instagram" />
           </a>
           <span>&nbsp;&nbsp;&nbsp;</span>
-          <a
+          {/* <a
             href="#"
             className="social"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-twitter" />
-          </a>
+          </a> */}
           <br />
           <br />
           <span className="foot-copyright">Copyright &copy; 2020</span>
