@@ -26,14 +26,6 @@ const Footer = () => {
             <i className="fab fa-instagram" />
           </a>
           <span>&nbsp;&nbsp;&nbsp;</span>
-          {/* <a
-            href="#"
-            className="social"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-twitter" />
-          </a> */}
           <br />
           <br />
           <span className="foot-copyright">Copyright &copy; 2020</span>

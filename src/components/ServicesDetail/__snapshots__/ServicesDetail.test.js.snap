@@ -26,7 +26,7 @@ exports[`ServicesDetail should not have regressed 1`] = `
     </h2>
     <a
       className="btn btn-book-now btn-book-now--testingcomponent"
-      href="https://nailsaloninvisibles.simplespa.com/#"
+      href="https://naileditsa.simplespa.com/#"
       role="button"
     >
       <span

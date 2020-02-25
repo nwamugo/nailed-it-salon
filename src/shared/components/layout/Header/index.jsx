@@ -65,10 +65,7 @@ function Header() {
               </a>
             </li>
             <li className="nav-item u-margin-left">
-              <a
-                className="nav-link"
-                href="https://nailsaloninvisibles.simplespa.com/#"
-              >
+              <a className="nav-link" href="https://naileditsa.simplespa.com/#">
                 MAKE AN APPOINTMENT
               </a>
             </li>

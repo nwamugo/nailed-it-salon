@@ -26,7 +26,7 @@ const ServicesDetail = ({ image, cardTitle }) => {
         </h2>
         <a
           className={`btn btn-book-now btn-book-now--${appendTitle}`}
-          href="https://nailsaloninvisibles.simplespa.com/#"
+          href="https://naileditsa.simplespa.com/#"
           role="button"
         >
           <span className="button-text">Book Now &gt;</span>
