@@ -97,7 +97,7 @@ const ContactSection = () => {
         </div>
         <h3 className="primary-thank-you-note">Thank You For Contacting Us</h3>
         <a
-          href="/directions"
+          href="https://www.google.co.ug/maps/dir//Al+Raed+Groove,+Al+Raed,+Riyadh+12355,+Saudi+Arabia/@24.7113703,46.6290252,17z/data=!4m16!1m6!3m5!1s0x3e2f1dd4130995df:0x746220d741c9e16b!2sAl+Raed+Groove!8m2!3d24.7113654!4d46.6312139!4m8!1m0!1m5!1m1!1s0x3e2f1dd4130995df:0x746220d741c9e16b!2m2!1d46.6312139!2d24.7113654!3e2"
           className="primary-direction-route"
           rel="noopener noreferrer"
         >
