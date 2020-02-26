@@ -29,38 +29,17 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item u-margin-left">
-              <a
-                className={`nav-link ${
-                  window.location.pathname.indexOf('directions') > -1
-                    ? ''
-                    : 'active'
-                }`}
-                href="/"
-              >
+              <a className="nav-link active" href="/">
                 HOME
               </a>
             </li>
             <li className="nav-item u-margin-left">
-              <a
-                className="nav-link"
-                href={
-                  window.location.pathname.indexOf('directions') > -1
-                    ? '/#serving'
-                    : '#serving'
-                }
-              >
+              <a className="nav-link" href="#serving">
                 OUR SERVICES
               </a>
             </li>
             <li className="nav-item u-margin-left">
-              <a
-                className="nav-link"
-                href={
-                  window.location.pathname.indexOf('directions') > -1
-                    ? '/#ourstory'
-                    : '#ourstory'
-                }
-              >
+              <a className="nav-link" href="#ourstory">
                 OUR STORY
               </a>
             </li>
@@ -70,18 +49,7 @@ function Header() {
               </a>
             </li>
             <li className="nav-item u-margin-left">
-              <a
-                className={`nav-link ${
-                  window.location.pathname.indexOf('directions') > -1
-                    ? 'active'
-                    : ''
-                }`}
-                href={
-                  window.location.pathname.indexOf('directions') > -1
-                    ? '/#contactus'
-                    : '#contactus'
-                }
-              >
+              <a className="nav-link" href="#contactus">
                 CONTACT US
               </a>
             </li>

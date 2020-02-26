@@ -82,7 +82,7 @@ exports[`Header should not have regressed 1`] = `
           className="nav-item u-margin-left"
         >
           <a
-            className="nav-link "
+            className="nav-link"
             href="#contactus"
           >
             CONTACT US
