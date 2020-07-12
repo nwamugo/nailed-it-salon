@@ -45,9 +45,10 @@ exports[`Header should not have regressed 1`] = `
             className="nav-link active"
             href="/"
           >
-            HOME
+            header.home
           </a>
         </li>
+              
         <li
           className="nav-item u-margin-left"
         >
@@ -55,9 +56,10 @@ exports[`Header should not have regressed 1`] = `
             className="nav-link"
             href="#serving"
           >
-            OUR SERVICES
+            header.services
           </a>
         </li>
+              
         <li
           className="nav-item u-margin-left"
         >
@@ -65,9 +67,10 @@ exports[`Header should not have regressed 1`] = `
             className="nav-link"
             href="#ourstory"
           >
-            OUR STORY
+            header.story
           </a>
         </li>
+              
         <li
           className="nav-item u-margin-left"
         >
@@ -75,9 +78,10 @@ exports[`Header should not have regressed 1`] = `
             className="nav-link"
             href="https://naileditsa.simplespa.com/#"
           >
-            MAKE AN APPOINTMENT
+            header.appointment
           </a>
         </li>
+              
         <li
           className="nav-item u-margin-left"
         >
@@ -85,11 +89,44 @@ exports[`Header should not have regressed 1`] = `
             className="nav-link"
             href="#contactus"
           >
-            CONTACT US
+            header.contact
           </a>
         </li>
       </ul>
     </div>
   </nav>
+  <div
+    className="dropdown translate"
+  >
+    <button
+      aria-expanded="false"
+      aria-haspopup="true"
+      className="btn btn-secondary dropdown-toggle"
+      data-toggle="dropdown"
+      id="dropdownMenuButton"
+      type="button"
+    >
+      header.translate
+    </button>
+    <div
+      aria-labelledby="dropdownMenuButton"
+      className="dropdown-menu"
+    >
+      <a
+        className="dropdown-item"
+        href="#"
+        onClick={[Function]}
+      >
+        language.english
+      </a>
+      <a
+        className="dropdown-item"
+        href="#"
+        onClick={[Function]}
+      >
+        language.arabic
+      </a>
+    </div>
+  </div>
 </div>
 `;

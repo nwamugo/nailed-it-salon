@@ -14,7 +14,7 @@ exports[`Welcome should not have regressed 1`] = `
       <span
         className="welcome-tag"
       >
-        Welcome
+        welcome.header
       </span>
       <br />
       <br />
@@ -22,7 +22,7 @@ exports[`Welcome should not have regressed 1`] = `
       <span
         className="sub-tag"
       >
-        To a Full Nailed It Spa Salon Experience
+        welcome.subtitle
       </span>
     </div>
   </div>

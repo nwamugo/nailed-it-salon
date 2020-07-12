@@ -23,12 +23,16 @@
   margin: 0 auto 3rem;
 
   &--manicure,
-  &--add-ons {
+  &--add-ons,
+  &--مانكيور,
+  &--إضافات {
     background-color: #000;
   }
 
   &--pedicure,
-  &--nail-extensions {
+  &--nail-extensions,
+  &--باديكيور,
+  &--اكتنشن {
     background-color: #fff;
   }
 }
@@ -39,18 +43,22 @@
   width: 35rem;
 
   &--manicure,
-  &--add-ons {
+  &--add-ons, 
+  &--مانكيور,
+  &--إضافات {
     background-color: #f8e7f2;
     color: #000;
   }
 
   &--pedicure,
-  &--nail-extensions {
+  &--nail-extensions,
+  &--باديكيور,
+  &--اكتنشن {
     background-color: #000;
     color: #fff;
   }
 
-  &--nail-extensions {
+  &--nail-extensions, &--اكتنشن {
     order: 1;
   }
 }
@@ -68,13 +76,17 @@
   text-transform: uppercase;
 
   &--manicure,
-  &--add-ons {
+  &--add-ons,
+  &--مانكيور,
+  &--إضافات {
     background-color: #e294c5;
     color: #fff;
   }
 
   &--pedicure,
-  &--nail-extensions {
+  &--nail-extensions,
+  &--باديكيور,
+  &--اكتنشن {
     background-color: #000;
     color: #fff;
   }

@@ -1,8 +1,9 @@
 import React from 'react';
-
+import { useTranslation } from 'react-i18next';
 import './ServicesDetail.scss';
 
 const ServicesDetail = ({ image, cardTitle }) => {
+  const { t } = useTranslation();
   const appendTitle = cardTitle.toLowerCase().replace(' ', '-');
 
   return (
@@ -29,7 +30,7 @@ const ServicesDetail = ({ image, cardTitle }) => {
           href="https://naileditsa.simplespa.com/#"
           role="button"
         >
-          <span className="button-text">Book Now &gt;</span>
+          <span className="button-text">{t('services.book')}</span>
         </a>
       </div>
     </div>

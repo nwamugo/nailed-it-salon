@@ -17,7 +17,7 @@ exports[`Services should not have regressed 1`] = `
       <h2
         className="primary-header"
       >
-        Our Services
+        header.services
       </h2>
       <div
         className="container-fluid"
@@ -26,12 +26,12 @@ exports[`Services should not have regressed 1`] = `
           className="row"
         >
           <ServicesCard
-            cardTitle="Manicure"
+            cardTitle="services.manicure"
             className="col"
             image=""
           />
           <ServicesCard
-            cardTitle="Pedicure"
+            cardTitle="services.pedicure"
             className="col"
             image=""
           />
@@ -40,12 +40,12 @@ exports[`Services should not have regressed 1`] = `
           className="row"
         >
           <ServicesCard
-            cardTitle="Nail Extensions"
+            cardTitle="services.extensions"
             className="col"
             image=""
           />
           <ServicesCard
-            cardTitle="Add Ons"
+            cardTitle="services.addons"
             className="col"
             image=""
           />

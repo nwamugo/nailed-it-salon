@@ -7,7 +7,7 @@ exports[`ContactSection should not have regressed 1`] = `
   <h2
     className="primary-header"
   >
-    Contact Us
+    header.contact
   </h2>
   <h3
     className="primary-location"
@@ -24,16 +24,16 @@ exports[`ContactSection should not have regressed 1`] = `
   <h2
     className="secondary-header"
   >
-    Opening Hours
+    header.contact
   </h2>
   <h3
     className="primary-info"
   >
-    Mon - Thur & Sat: 11am - 9pm
+    contact.timemonday
     <br />
-    Friday: 2pm - 9pm
+    contact.timefriday
     <br />
-    Sunday: Closed
+    contact.close
   </h3>
 </div>
 `;

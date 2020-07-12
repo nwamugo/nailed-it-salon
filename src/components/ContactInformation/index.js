@@ -1,10 +1,12 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './ContactInformation.scss';
 
 const ContactInformation = () => {
+  const { t } = useTranslation();
   return (
     <div className="contact-information">
-      <h2 className="primary-header">Contact Us</h2>
+      <h2 className="primary-header">{t('header.contact')}</h2>
       <h3 className="primary-location">
         Ground Foor, Al Raed Groove, Ashirat Sudayr street, &nbsp;
         <br />
@@ -13,13 +15,13 @@ const ContactInformation = () => {
       <h3 className="primary-info">
         support@naileditsa.com&nbsp;&nbsp;|&nbsp;&nbsp;+966 56 057 7709
       </h3>
-      <h2 className="secondary-header">Opening Hours</h2>
+      <h2 className="secondary-header">{t('header.contact')}</h2>
       <h3 className="primary-info">
-        Mon - Thur &amp; Sat: 11am - 9pm
+        {t('contact.timemonday')}
         <br />
-        Friday: 2pm - 9pm
+        {t('contact.timefriday')}
         <br />
-        Sunday: Closed
+        {t('contact.close')}
       </h3>
     </div>
   );

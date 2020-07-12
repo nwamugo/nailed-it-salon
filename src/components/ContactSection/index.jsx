@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { useTranslation } from 'react-i18next';
 
 import './ContactSection.scss';
 import ContactInformation from '../ContactInformation';
 import { successToast, dangerToast } from '../toast';
 
 const ContactSection = () => {
+  const { t } = useTranslation();
   const [inputValue, setInputValue] = useState({});
 
   const onClickSendMessage = event => {
@@ -48,7 +50,7 @@ const ContactSection = () => {
                   type="text"
                   className="form-control contact-info"
                   id="inlineFormInputName"
-                  placeholder="Name"
+                  placeholder={t('contact.name')}
                   name="name"
                   onChange={onChangeHandler}
                 />
@@ -58,7 +60,7 @@ const ContactSection = () => {
                   type="text"
                   className="form-control contact-info"
                   id="inlineFormInputEmail"
-                  placeholder="Email"
+                  placeholder={t('contact.email')}
                   name="email"
                   onChange={onChangeHandler}
                 />
@@ -68,7 +70,7 @@ const ContactSection = () => {
                   type="text"
                   className="form-control contact-info"
                   id="inlineFormInputPhoneNumber"
-                  placeholder="Phone Number"
+                  placeholder={t('contact.phone')}
                   name="phone"
                   onChange={onChangeHandler}
                 />
@@ -78,7 +80,7 @@ const ContactSection = () => {
                   className="form-control contact-info"
                   id="inlineFormInputeMessage"
                   rows="3"
-                  placeholder="Message"
+                  placeholder={t('contact.message')}
                   name="message"
                   onChange={onChangeHandler}
                 />
@@ -89,19 +91,19 @@ const ContactSection = () => {
                   className="btn btn-primary contact-info"
                   onClick={onClickSendMessage}
                 >
-                  Submit
+                  {t('contact.submit')}
                 </button>
               </div>
             </div>
           </form>
         </div>
-        <h3 className="primary-thank-you-note">Thank You For Contacting Us</h3>
+        <h3 className="primary-thank-you-note">{t('contact.thanks')}</h3>
         <a
           href="https://www.google.co.ug/maps/dir//Al+Raed+Groove,+Al+Raed,+Riyadh+12355,+Saudi+Arabia/@24.7113703,46.6290252,17z/data=!4m16!1m6!3m5!1s0x3e2f1dd4130995df:0x746220d741c9e16b!2sAl+Raed+Groove!8m2!3d24.7113654!4d46.6312139!4m8!1m0!1m5!1m1!1s0x3e2f1dd4130995df:0x746220d741c9e16b!2m2!1d46.6312139!2d24.7113654!3e2"
           className="primary-direction-route"
           rel="noopener noreferrer"
         >
-          See Directions &gt;
+          {t('contact.directions')}
         </a>
       </div>
     </div>

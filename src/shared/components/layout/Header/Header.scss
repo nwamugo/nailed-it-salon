@@ -1,5 +1,5 @@
 .nav-logo {
-  margin-left: -10px;
+  margin-left: -70px;
 
   @media (min-width: 320px) and (max-width: 480px) {
     width: 130px;
@@ -15,8 +15,8 @@
 .navbar-nav {
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8rem;
-  line-height: 1.4rem;
+  font-size: 3rem;
+  line-height: 2.5rem;
   /* identical to box height */
   text-align: center;
   color: #000000;
@@ -27,7 +27,7 @@
   }
 }
 .navbar-nav li {
-  margin-right: 7px;
+  margin-right: -20px;
 }
 .navbar-nav li a {
   color: black !important;
@@ -37,4 +37,19 @@
 }
 .navbar-nav a.nav-link.active {
   color: #cf6bab !important;
+}
+
+.translate button{
+  width: auto;
+  height: 40px;
+  font-size: 18px;
+}
+
+.translate{
+  float: right;
+  margin-right: 33px;
+}
+
+.translate a{
+  font-size: 14px;
 }
