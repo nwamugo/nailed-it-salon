@@ -9,7 +9,7 @@ let lng = defaultLng;
 
 const storageLanguage = localStorage.getItem('language');
 if (storageLanguage && allowedLanguages.indexOf(storageLanguage) > -1) {
-    lng = storageLanguage;
+  lng = storageLanguage;
 }
 
 i18n
