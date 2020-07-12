@@ -3,9 +3,10 @@
   width: 100%;
   padding: 3rem;
   background: black;
+  height: auto;
 
   @media (min-width: 320px) and (max-width: 667px) {
-    height: 22rem;
+    height: auto;
   }
 }
 .foot-logo {

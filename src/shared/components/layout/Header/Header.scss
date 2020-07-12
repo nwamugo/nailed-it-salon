@@ -3,6 +3,7 @@
 
   @media (min-width: 320px) and (max-width: 480px) {
     width: 130px;
+    margin-left: 0px;
   }
   @media (min-width: 481px) and (max-width: 767px) {
     width: 150px;
@@ -39,17 +40,16 @@
   color: #cf6bab !important;
 }
 
-.translate button{
-  width: auto;
-  height: 40px;
-  font-size: 18px;
-}
-
 .translate{
   float: right;
-  margin-right: 33px;
+  border: None;
 }
 
-.translate a{
-  font-size: 14px;
+.translate button{
+  height: 5rem;
+  width: auto;
+  font-size: 10px;
+}
+.translate div a{
+  font-size: 10px;
 }
