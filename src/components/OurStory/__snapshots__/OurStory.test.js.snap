@@ -26,9 +26,13 @@ exports[`OurStory should not have regressed 1`] = `
           className="story"
         >
           story.part1
-          <br />
-          <br />
+           
           story.part2
+          <br />
+          <br />
+          story.part3
+           
+          story.part4
         </p>
       </div>
     </div>

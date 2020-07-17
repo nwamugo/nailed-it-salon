@@ -12,10 +12,10 @@ const OurStory = () => {
           <div className="story-container">
             <h2 className="primary-header">{t('header.story')}</h2>
             <p className="story">
-              {t('story.part1')}
+              {t('story.part1')}&nbsp;{t('story.part2')}
               <br />
               <br />
-              {t('story.part2')}
+              {t('story.part3')}&nbsp;{t('story.part4')}
             </p>
           </div>
         </div>
