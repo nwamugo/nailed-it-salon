@@ -13,7 +13,7 @@ const ContactInformation = () => {
         Ar Raid, Riyadh 12355
       </h3>
       <h3 className="primary-info">
-        support@naileditsa.com&nbsp;&nbsp;|&nbsp;&nbsp;+966539889555
+        support@naileditsa.com&nbsp;&nbsp;|&nbsp;&nbsp;+966539889111
       </h3>
       <h2 className="secondary-header">{t('header.contact')}</h2>
       <h3 className="primary-info">
