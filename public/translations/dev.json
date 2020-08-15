@@ -4,7 +4,7 @@
     "header.story": "OUR STORY",
     "header.appointment": "MAKE AN APPOINTMENT",
     "header.contact": "CONTACT US",
-    "header.translate": "Translate this page",
+    "header.translate": "للعربي",
     "welcome.header": "Welcome",
     "welcome.subtitle": "To a Full Nailed It Spa Experience",
     "services.manicure": "Manicure",
@@ -13,11 +13,13 @@
     "services.addons": "Add Ons",
     "services.book": "BOOK NOW",
     "story.part1": "At Nailed It nail spa we are dedicated to providing the superlative nail experience, delivered in a high-end and relaxing environment.",
-    "story.part2": "We are focused on providing an ideal customer service for our clients. We are passionate about our artistry in style and nail beauty. Most importantly, we are committed to the well-being of our clients and team members.",
+    "story.part2": "",
+    "story.part3": "",
+    "story.part4": "We are focused on providing an ideal customer service for our clients. We are passionate about our artistry in style and nail beauty. Most importantly, we are committed to the well-being of our clients and team members.",
     "contact.opening": "OPENING HOURS",
-    "contact.timemonday": "Mon - Thur & Sat: 11am - 7:45pm",
+    "contact.timemonday": "Mon - Thur & Sat: 1PM - 9PM",
     "contact.close": "Sunday: Closed",
-    "contact.timefriday": "Friday: 2pm - 7:45PM",
+    "contact.timefriday": "Friday: 4PM - 9PM",
     "contact.name": "Name",
     "contact.message": "Message",
     "contact.phone": "Phone Number",
@@ -26,5 +28,5 @@
     "contact.directions": "SEE DIRECTIONS",
     "contact.thanks": "Thank You For Contacting Us",
     "language.english": "English",
-    "language.arabic": "Arabic"
+    "language.arabic": "للعربي"
 }

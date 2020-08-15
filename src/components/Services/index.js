@@ -5,7 +5,7 @@ import ServicesCard from '../ServicesCard';
 import Pedicure from '../../shared/images/pedicure.png';
 import NailsExtension from '../../shared/images/nailsextension.png';
 import Manicure from '../../shared/images/manicure.png';
-import Addons from '../../shared/images/add-ons.png';
+import Addons from '../../shared/images/addons.png';
 
 import './Services.scss';
 
