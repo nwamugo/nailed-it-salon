@@ -31,7 +31,7 @@ exports[`Footer should not have regressed 1`] = `
       </span>
       <a
         className="social"
-        href="https://www.instagram.com/20naileditsa/"
+        href="https://www.instagram.com/nailedit.spa.sa/"
         rel="noopener noreferrer"
       >
         <i

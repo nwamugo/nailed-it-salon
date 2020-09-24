@@ -19,7 +19,7 @@ const Footer = () => {
           </a>
           <span>&nbsp;&nbsp;&nbsp;</span>
           <a
-            href="https://www.instagram.com/20naileditsa/"
+            href="https://www.instagram.com/nailedit.spa.sa/"
             className="social"
             rel="noopener noreferrer"
           >
